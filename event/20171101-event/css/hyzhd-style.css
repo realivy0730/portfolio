@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css");
+
+a{ text-decoration:none; outline:none;}
+map area { outline: none;}
+img{ vertical-align:top;}
+li{ list-style:none;}
+
+*{ margin:0; padding:0;}
+
+.PACKAGE{ width:100%; height:auto;overflow:hidden;}
+.LATTICE_NO1{height: auto; margin:0 auto;background-color:#202039;padding-bottom:5px;padding-top:4%;overflow:hidden;}
+.LATTICE_NO1 h5{font-family: 'Noto Sans TC';/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#caff7d+0,a4ff21+100 */
+background: #caff7d; /* Old browsers */
+background: -moz-linear-gradient(top, #caff7d 0%, #a4ff21 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #caff7d 0%,#a4ff21 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #caff7d 0%,#a4ff21 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caff7d', endColorstr='#a4ff21',GradientType=0 ); /* IE6-9 */
+font-size: 2.3rem;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+margin-bottom: 20px;
+position: relative; }
+.LATTICE_NO1 h5:before{    content: "";left: 40px;width: 23%;font-size: .8rem;background: url(../images/h3Line.png);background-size: cover;height: 10px;right: 0;position: absolute;top: 50%;margin: -5px 0 0;}
+.LATTICE_NO1 h5:after{content: "";right: 40px;width: 23%;font-size: .8rem;background: url(../images/h3Line.png);background-size: cover;height: 10px;position: absolute;top: 50%;margin: -5px 0 0;}
+.LATTICE_NO1 ul{width:940px;margin:0 auto;padding-left: 5px;}
+.LATTICE_NO1 ul li{width:220px;height:360px;float:left;margin:0px 5px 5px 0px;font-family:"微軟正黑體";padding:5px 5px 5px 5px;background-color:#FFF;text-align:center;}
+.LATTICE_NO1 ul li p.IFR{width:220px;height:220px;margin:0 auto;margin-bottom:2px;text-align: center;position: relative;}
+.LATTICE_NO1 ul li p.IFR iframe{width:100%;height:220px;position:absolute;top:0;left:0;}
+.LATTICE_NO1 ul li p.IFR img{width:220px;height:220px;}
+.LATTICE_NO1 ul li p.TEBIAO{width:220px;height:28px;margin:0 auto;border-top:1px solid #575757;border-bottom:1px solid #575757;font-size:19px;font-weight:bold;color:#575757;line-height:28px; margin-bottom:2px;letter-spacing:-1px;white-space:nowrap;overflow: hidden;}
+.LATTICE_NO1 ul li p.PNAME{width:220px;height:36px;margin:0 auto;font-size:16px;line-height:18px;color:#575757;overflow:hidden;}
+.LATTICE_NO1 ul li p.JIAQIAN{height:35px;font-family:"Century Gothic";font-weight:bold;}
+.LATTICE_NO1 ul li p.JIAQIAN span.AA{font-size:14px;font-weight:normal;color:#575757;text-decoration:line-through;padding-right:3px;}
+.LATTICE_NO1 ul li p.JIAQIAN span.AA:before{content:"$";font-family:"Century Gothic";font-weight:normal;font-size:14px;color:#575757;}
+.LATTICE_NO1 ul li p.JIAQIAN span.BB{font-size:32px;line-height:30px;color:#ff3854;}
+.LATTICE_NO1 ul li p.JIAQIAN span.BB:before{content:"$"; font-family:"Century Gothic";font-size:15px; color:#ff3854;}
+.LATTICE_NO1 ul li p.JIAQIAN span.CC{font-size:15px;color:#ff3854;font-family:"微軟正黑體";font-weight:bold;}
+.LATTICE_NO1 ul li p.LINGJUAN{width:215px;height:35px;font-family:"微軟正黑體";font-size:14px;letter-spacing:-1px;background-color:#B30002;text-align: left;position: relative;padding-left:5px;white-space: nowrap;}
+.LATTICE_NO1 ul li p.LINGJUAN a{display: inline-block;width:145px;color:#FFF;}
+.LATTICE_NO1 ul li p.LINGJUAN span.MM{font-family:"Century Gothic";color:#fffc00;font-size:32px;font-weight:bold;line-height:35px;}
+.LATTICE_NO1 ul li p.LINGJUAN span.MM:before{content:"$";font-size:15px;}
+.LATTICE_NO1 ul li p.LINGJUAN span.NN{width:68px;height:33px;background-color:#FFF;border: solid 1px #B30002;font: bold 17px/33px "微軟正黑體";color:#B30002;text-align:center;position: absolute;right:-1px;top:0;z-index:99;}
+.LATTICE_NO1 ul li p.LINGJUAN span.NN:after{content:"▸";display:inline-block;width: 12px;height: 12px;background-color: #B30002;border-radius: 50%;vertical-align: middle;font: 20px/10px "微軟正黑體";color: #fff;margin: 0px 0px 2px 2px;text-indent: -1px;}
+.LATTICE_NO1 ul li p.QIANGGOU{width:220px;height:35px;background-color:#212039;text-align:center;}
+.LATTICE_NO1 ul li p.QIANGGOU span.NN{font:bold 18px/35px "微軟正黑體";color:#FFF;}
+.LATTICE_NO1 ul li p.QIANGGOU span.NN:after{content:"▸";display:inline-block;width: 12px;height: 12px;background-color: #fff;border-radius: 50%;vertical-align: middle;font: 20px/10px "微軟正黑體";color: #222039;margin: 0px 0px 3px 3px;text-indent: -1px;}
+
+
+.LATTICE_NO2{height: auto;margin: 0 auto;background-color: rgba(36, 34, 63,.8);padding-bottom: 5px; padding-top: 10px;overflow: hidden;}
+.LATTICE_NO2 h5{width:100%;text-align: center;font:bold 40px/70px "微軟正黑體"; color:#fff;}
+.LATTICE_NO2 ul{width:940px;margin:0 auto;padding-left: 5px;}
+.LATTICE_NO2 ul li{width:230px;height: 420px;margin: 0px 5px 5px 0px;text-align: center;background-color: #fff;float: left;}
+.LATTICE_NO2 ul li.GQBN{width:230px;height: 420px;margin: 0px 5px 5px 0px;background-image: url('../images/guanqi-1.jpg');background-size: cover;background-position: center bottom;background-repeat: no-repeat;background-color: transparent;}
+.LATTICE_NO2 ul li.GQBN a > p{opacity: 0;background-color: transparent;}
+.LATTICE_NO2:nth-child(2) ul li.GQBN{background-image: url('../images/guanqi-2.jpg');}
+.LATTICE_NO2:nth-child(3) ul li.GQBN{background-image: url('../images/guanqi-3.jpg');}
+.LATTICE_NO2:nth-child(4) ul li.GQBN{background-image: url('../images/guanqi-4.jpg');}
+.LATTICE_NO2 ul li.GQBN img{width:100%;height:auto;opacity: 0;}
+.LATTICE_NO2 ul li>img{width: 100%;height: auto;}
+.LATTICE_NO2 ul li h6{width:230px;height: 230px;}
+.LATTICE_NO2 ul li h6>img{width: 100%;height: auto;}
+.LATTICE_NO2 ul li p.TESE{width: 230px;height: 45px;background-color: #ffe34a;font:bold 19px/45px "微軟正黑體"; color:#B30002;white-space: nowrap;}
+.LATTICE_NO2 ul li p.PINMING{width: 230px;height: 45px;font:16px/18px "微軟正黑體"; color:#575757;padding-top: 5px;}
+.LATTICE_NO2 ul li p.JIAGE{width: 230px;height: 45px;color: #ff3854;position: relative;white-space: nowrap;}
+.LATTICE_NO2 ul li p.JIAGE span.TT1{text-decoration: line-through;color: #575757;font:13px/15px "Century Gothic";}
+.LATTICE_NO2 ul li p.JIAGE span.TT1:before{content: "$";font-size: 13px;}
+.LATTICE_NO2 ul li p.JIAGE span.TT2{font:bold 16px/45px "微軟正黑體";}
+.LATTICE_NO2 ul li p.JIAGE span.TT3{font:bold 32px/45px "Century Gothic";}
+.LATTICE_NO2 ul li p.JIAGE span.TT3:before{content: "$";font-size: 16px;}
+.LATTICE_NO2 ul li p.JIAGE span.TT4{font:bold 16px/45px "微軟正黑體";}
+.LATTICE_NO2 ul li p.QIANG{width: 230px;height: 50px;background-color: #17000a; font:25px/45px "微軟正黑體";color: #fff;}
+
+@media screen and (max-width:768px){
+	*{ margin:0; padding:0;}
+	html, body{ -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+
+	.WRAPPER{ width:100%; height:auto;}
+	.PACKAGE{ width:100%; height:auto;}
+
+	.LATTICE_NO1{width:100%;height: auto;margin:0 auto;padding:6% 0 0 0;overflow:hidden;}
+	.LATTICE_NO1 h5{width:100%;height:auto; text-align:center;font: bold 1.2em/1.8em "微軟正黑體"; color:#fff;white-space:nowrap;margin: 0 0 3%;padding: 4% 0 0;}
+	.LATTICE_NO1 ul{ width:98%; height: auto; margin:0 auto;padding-left: 0px;}
+	.LATTICE_NO1 ul li{width:44%; height: auto; float:left; margin:0% 1% 2% 1%; font-family:"微軟正黑體";padding:2% 2% 2% 2%;background-color: #FFF; text-align:center; }
+	.LATTICE_NO1 ul li p.IFR{width:100%; height:0; padding-bottom:100%; margin:0 auto; margin-bottom:2%; position:relative;}
+	.LATTICE_NO1 ul li p.IFR iframe{width: 100%;height:100%;position: absolute;top: 0;left: 0;}
+	.LATTICE_NO1 ul li p.IFR img{ width:100%; height: auto; margin:0 auto;}
+	.LATTICE_NO1 ul li p.TEBIAO{ width:100%; height: 25px; margin:0 auto; border-top:1px solid #575757; border-bottom:1px solid #575757; font-size:0.95em; font-weight:bold; color:#575757; line-height:25px; margin-bottom:1%; letter-spacing:-1px; white-space:nowrap;overflow: hidden;}
+	.LATTICE_NO1 ul li p.PNAME{ width:100%; height:36px; margin:0 auto; font-size:0.9em; line-height:1.2em; color:#575757; white-space: pre-wrap; overflow:hidden;}
+	.LATTICE_NO1 ul li p.JIAQIAN{height:30px; font-family:"Century Gothic"; font-weight:bold; white-space:nowrap;padding-top: 5px;}
+	.LATTICE_NO1 ul li p.JIAQIAN span.AA{ font-size:0.83em;font-weight:normal; color:#575757; text-decoration:line-through; padding-right:1%;}
+	.LATTICE_NO1 ul li p.JIAQIAN span.AA:before{ content:"$"; font-family:"Century Gothic"; font-weight:normal; font-size:0.83em; color:#575757;}
+	.LATTICE_NO1 ul li p.JIAQIAN span.BB{ font-size:1.3em; line-height:1em; color:#ff3854; letter-spacing:-0.5px;}
+	.LATTICE_NO1 ul li p.JIAQIAN span.BB:before{ content:"$"; font-family:"Century Gothic";font-size:0.5em; color:#ff3854;}
+	.LATTICE_NO1 ul li p.JIAQIAN span.CC{ font-size:0.7em; color:#ff3854; font-family:"微軟正黑體"; font-weight:bold;}
+	.LATTICE_NO1 ul li p.LINGJUAN{ width:100%; height:35px;font-family:"微軟正黑體"; font-size:0.87em;letter-spacing:-0.04em;background-color:#B30002;text-align:center; position: relative;padding-left:0px;white-space: nowrap;overflow: hidden;}
+	.LATTICE_NO1 ul li p.LINGJUAN a{ display: block; width:100%; height: auto; color:#FFF;}
+	.LATTICE_NO1 ul li p.LINGJUAN span.MM{ font-family:"Century Gothic";color:#fffc00; font-size:2em; font-weight:bold; line-height:38px;}
+	.LATTICE_NO1 ul li p.LINGJUAN span.MM:before{ content:"$"; font-size:0.5em;}
+	.LATTICE_NO1 ul li p.LINGJUAN span.NN{display: none;width:30%; height:33px; background-color:#FFF; border:solid 1px #B30002; font:bold 1em/38px "微軟正黑體"; color:#B30002; text-align: center; position:absolute; right:0; top:0; z-index:99;}
+	.LATTICE_NO1 ul li p.LINGJUAN span.NN:after{content:"▸";display:inline-block;width: 10px;height: 10px;background-color: #B30002;border-radius: 50%;vertical-align: middle;font: 15px/8.5px "微軟正黑體";color: #fff;margin: 0px 0px .5px 1.5px;text-indent: 0px;}
+	.LATTICE_NO1 ul li p.QIANGGOU{ width:100%; height:35px; margin:0 auto; text-align: center;}
+	.LATTICE_NO1 ul li p.QIANGGOU span.NN{ font:bold 1.2em/35px "微軟正黑體"; color:#FFF;}
+	.LATTICE_NO1 ul li p.QIANGGOU span.NN:after{content: "▸";display: inline-block;width: 12px;height: 12px;background-color: #fff;border-radius: 50%;vertical-align: middle;font: 20px/10px "微軟正黑體";margin: 0px 0px 3px 3px;font-size: 7px;}
+
+	.LATTICE_NO2{width:100%;height: auto;margin: 0 auto;background-color:#B30002;padding-top:2.5%;overflow: hidden;}
+	.LATTICE_NO2 h3{width:100%;height: auto;text-align: center;font: bold 2em/2.2em "微軟正黑體"; color:#fff;white-space:nowrap;}
+	.LATTICE_NO2 ul{width:98%;margin: 0 auto;padding-left: 0px;}
+	.LATTICE_NO2 ul li{width:48%;height: auto;margin:0% 1% 2% 1%;;text-align: center;background-color: #fff;float: left;}
+	.LATTICE_NO2 ul li.GQBN{width: 48%;height: auto;margin: 0% 1% 2% 1%;background-image: url('../images/guanqi-1.jpg');background-size: cover;overflow: hidden;background-position: center top;background-repeat: no-repeat;background-color: transparent;}
+	.LATTICE_NO2 ul li.GQBN a > p{opacity: 0;background-color: transparent;}
+	.LATTICE_NO2:nth-child(2) ul li.GQBN{background-image: url('../images/guanqi-2.jpg');}
+	.LATTICE_NO2:nth-child(3) ul li.GQBN{background-image: url('../images/guanqi-3.jpg');}
+	.LATTICE_NO2:nth-child(4) ul li.GQBN{background-image: url('../images/guanqi-4.jpg');}
+	.LATTICE_NO2 ul li.GQBN img{width:100%;height:100%;opacity: 0;}
+	.LATTICE_NO2 ul li>img{width: 100%;height: auto;}
+	.LATTICE_NO2 ul li h6{width:100%;height:0;padding-bottom: 100%;}
+	.LATTICE_NO2 ul li h6>img{width:100%;height:auto;}
+	.LATTICE_NO2 ul li p{overflow: hidden;}
+	.LATTICE_NO2 ul li p.TESE{width:100%;height:2em;font:bold 1em/2em "微軟正黑體";white-space: nowrap;}
+	.LATTICE_NO2 ul li p.PINMING{width:100%;height:40px;font:1em/1.2em "微軟正黑體";}
+	.LATTICE_NO2 ul li p.JIAGE{width:96%;height:45px;color: #ff3854;position: relative;padding:0% 2%;white-space: nowrap;}
+	.LATTICE_NO2 ul li p.JIAGE span.TT1{display: block;text-decoration: line-through;color: #5a5b5d;font:0.9em/1em "Century Gothic";position: absolute;top:10%;left: 3%;}
+	.LATTICE_NO2 ul li p.JIAGE span.TT1:before{content: "$";font-size: 0.9em;}
+	.LATTICE_NO2 ul li p.JIAGE span.TT2{font:bold 0.9em/45px "微軟正黑體";}
+	.LATTICE_NO2 ul li p.JIAGE span.TT3{font:bold 2em/45px "Century Gothic";}
+	.LATTICE_NO2 ul li p.JIAGE span.TT3:before{content: "$";font-size: 0.5em;}
+	.LATTICE_NO2 ul li p.JIAGE span.TT4{font:bold 0.9em/45px "微軟正黑體";}
+	.LATTICE_NO2 ul li p.QIANG{width:100%;height:40px;background-color: #17000a; font:1.2em/1.8em "微軟正黑體";color: #fff;}
+	.LATTICE_NO1 h5:before{width: 94%;top: 3%;left: 3%;right: 0;}
+	.LATTICE_NO1 h5:after{display: none;}
+
+}

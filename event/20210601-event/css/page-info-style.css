@@ -1,0 +1,184 @@
+@charset "utf-8";
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:'Noto Sans TC',"微軟正黑體",'Century Gothic';color:#333;position:relative;margin:auto;background:#f49845;overflow-x:hidden}
+a:focus{outline:0}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h4,h6,p{margin:0;padding:0}
+.ColorImg{color:#ffe2db}
+ul li img{width:95%;margin:1% auto;height:auto}
+.QrCodeImg{width:30%;height:auto;margin:inherit}
+.Top{display:none!important}
+.logo a{display:block;width:114px;height:40px}
+.WRAPPER{width:100%;height:auto}
+.Contanter{background-image:url(../images/bg.png?20210503001),url(../images/bg2.png?20210527);background-position:center 0,center bottom -30px,center 1833px;background-repeat:no-repeat,no-repeat,repeat-y;padding-bottom:70px}
+.VISIONARY{position:relative}
+.VISIONARY>.DREAMY{position:relative;max-width:1000px;margin:auto;width:100%}
+.VISIONARY>.DREAMY h1{background:url(../images/title_info.png?20210527) no-repeat center top;width:100%;height:550px;background-size:100%}
+.VISIONARY>.DREAMY p{width:200px;height:50px;background-color:#ff74dc;border-radius:0 0 10px 10px;position:absolute;top:0;right:50px;text-align:center;font:30px/45px "微軟正黑體"}
+.VISIONARY>.DREAMY p a{display:block;color:#fff}
+.ROUTINE_PAGE{width:100%;height:auto;padding-top:0;overflow:hidden}
+.MAINTAIN{width:1000px;height:auto;margin:2% auto;text-align:left;padding-bottom:20px;border-radius:10px;position:relative;color:#333}
+/*.MAINTAIN:after{content:"";position:absolute;width:5px;top:0;bottom:0;z-index:1;background-color:#cd0000}*/
+.MAINTAIN>.N1{width:1030px;height:auto;position:relative;padding:0 1% 4% 1%;position:relative;z-index:2;margin: 3% auto; background: #fff;border-radius: 30px;}
+.MAINTAIN>.N1 h6{width:130px;height:130px;border-radius:50%;background-color:#cd0000;text-align:center;font:bold 90px/120px "Arial, Helvetica,sans-serif";position:absolute;left:-65px;top:-9px;color:#fff}
+.MAINTAIN h4 img{ width: 100%;margin: 1% auto;}
+
+.infobox{width: 90%; margin: 1% auto;}
+.infobox p img{width: 100%; height: auto; margin: 0 auto;}
+
+
+.MAINTAIN h5.BTN_STYLE01{display:inline-block;width:290px;text-align:center;border-radius:50px;background-color:#cd0000;margin:5px 15px 30px 0}
+.MAINTAIN h5.BTN_STYLE02{display:inline-block;width:390px;text-align:center;border-radius:50px;background-color:#89fffb;margin:5px 15px 30px 0}
+.BTN_STYLE02:hover{-moz-box-shadow:4px 4px 3px rgba(20%,20%,40%,.5);-webkit-box-shadow:4px 4px 3px rgba(20%,20%,40%,.5);box-shadow:4px 4px 3px rgba(20%,20%,40%,.5);transform:translateY(.2em)}
+.MAINTAIN h5.BTN_STYLE01 a{display:block;color:#fff;font:bold 35px/50px "微軟正黑體";text-decoration:none}
+.MAINTAIN h5.BTN_STYLE01 a small{font:bold 20px/20px "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE01 a:after{content:url(../images/hand.png?20210503001)}
+.MAINTAIN li h5.BTN_STYLE02{margin:0 15px 30px -22px}
+.MAINTAIN h5.BTN_STYLE02 a{display:block;color:#fff;font:bold 35px/50px "微軟正黑體";text-decoration:none}
+.MAINTAIN h5.BTN_STYLE02 a small{font:bold 20px/20px "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE02 a:after{content:url(../images/hand.png?20210503001)}
+.MAINTAIN p{font:20px/34px "微軟正黑體";color:#303030}
+.MAINTAIN p span{font:bold 25px/34px "微軟正黑體";color:#2769fc}
+.MAINTAIN p a{color:#095c4c;text-decoration:underline}
+.MAINTAIN ol{padding-left:22px;margin:0 0 3%}
+.MAINTAIN ol>li{list-style-type:disc}
+.MAINTAIN ol>li>ol>li{list-style-type:decimal}
+.MAINTAIN ol>li>ol>li>ol>li{list-style-type:square}
+.MAINTAIN li{color:#303030;font:20px/34px "微軟正黑體"}
+.MAINTAIN li a{color:#cd0000;text-decoration:underline}
+.MAINTAIN li table{width:100%;font:16px/25px "微軟正黑體";color:#fff}
+.MAINTAIN table{width:100%;text-align:center;margin-bottom:30px;word-break:break-all}
+.MAINTAIN table tr{font:16px/25px "微軟正黑體"}
+.MAINTAIN table td{font:16px/25px "微軟正黑體";background-color:#fff;vertical-align:middle;padding:5px;color:#000}
+.MAINTAIN table td a{color:#ff0;text-decoration:underline}
+.MAINTAIN table tr td:last-child{padding-left:10px;text-align:center}
+.MAINTAIN table th{background-color:#2769fc;color:#fff;text-align:center;padding-left:0}
+.MAINTAIN table td{background-color:#e6e6e6;}
+.MAINTAIN .T_CENTER tr td:last-child{padding-left:0;text-align:center}
+.MAINTAIN table.T_CENTER tr td{background-color:#dedede;color:#000}
+.MAINTAIN td.T_LEFT{text-align:left!important;padding-left:10px!important}
+.MAINTAIN ol li ul li{list-style:square;margin-left:30px}
+#Table1,#Table2{width:40%}
+.NOTE{width:100%;height:auto;background-color:#373737;overflow:hidden}
+.NOTE h4{color:#fff799;font:bold 50px/60px "微軟正黑體";text-align:center;padding-top:10px;margin:2% 0}
+.NOTE ol{width:1000px;height:auto;text-align:left;margin:0 auto}
+.NOTE .Rule{width:1000px;height:auto;text-align:left;margin:2% auto;color:#fff;font:15px/25px "微軟正黑體"}
+.NOTE li{color:#fff;font:15px/25px "微軟正黑體";margin-bottom:30px}
+.share-bar{width:950px!important;z-index:99}
+.WEB{display:block;width:100%}
+.FOOTER{width:100%;margin:0 auto;padding:0;background:url(../images/footer-bg.jpg) repeat-x;overflow:hidden}
+.footerbox{width:950px;margin:0 auto}
+.LiStyle li{list-style:upper-alpha;margin-left:30px}
+.Table th{padding:1%}
+.Table td span{color:#0900ff;font-size:14px;line-height:1}
+.MAINTAIN ol li .ItemClass li{list-style:decimal}
+.PercentList{line-height:1.2;font-weight:700;text-align:center}
+.PercentList li{display:inline-block;vertical-align:middle;text-align:center;font-family:'Century Gothic';font-size:1.1rem}
+.PercentList .Percent{line-height:1.2}
+.PercentList .Percent .Number{font-size:5rem}
+.PercentList .Percent .SymPercent{font-size:2rem}
+.PercentList .All{color:#ff5260;font-weight:700}
+.PercentList .All .Percent{line-height:1}
+.PercentList .All .Percent .Number{font-size:6rem;color:#ff5260}
+.PercentList .All .SymPercent{font-size:2rem;color:#ff5260}
+.PercentList .Sym{color:#aaa;font-size:2rem}
+.PercentList .All .Ps{font-size:1.5rem}
+.PercentList .All{position:relative}
+.PercentList .All .Ps2{font-size:1rem;position:absolute;left:0;top:-17px;color:#000}
+.PercentList li a{background-color:#4a0418;border-radius:20px;display:block;width:140px;height:140px;line-height:1.1;text-decoration:none;overflow:hidden;border:1px solid transparent}
+.PercentList li a:hover{color:#fff;border:1px solid rgb(74 4 24);background:rgba(74,4,24,.3)}
+.Withe a{position:relative}
+.Withe a:after{background:#fff;content:"";height:225px;left:-265px;opacity:.2;position:absolute;top:-50px;-webkit-transform:rotate(35deg);transform:rotate(35deg);-webkit-transition:all 550ms cubic-bezier(.19,1,.22,1);transition:all 550ms cubic-bezier(.19,1,.22,1);width:50px;z-index:1}
+.Layer{font-size:2rem;background:#000;position:absolute;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;opacity:0}
+.Withe:hover .Layer{opacity:1}
+.Withe a:hover:after{left:140%;-webkit-transition:all 550ms cubic-bezier(.19,1,.22,1);transition:all 550ms cubic-bezier(.19,1,.22,1)}
+.BtnFb img{width:309px;height:131px}
+.bg_01{background:url(../images/bg_01.png?20210503001) repeat-y;background-size:110%}
+.bg_02{background:url(../images/bg_02.png?20210503001) repeat-y;background-size:100%}
+.bgScroll{z-index:-2;position:fixed;top:0;left:0;width:100%;height:100%;background-position:center 0;background-repeat:repeat-y;transition:.5s linear;pointer-events:none}
+
+.BtnGo{background:url(../images/BtnGo.png?20210503001) no-repeat;width:100%;height:0;text-indent:-9999px;display:block;background-size:100%;padding-bottom:10%;max-width:292px}
+.ButtnBar{margin-bottom:20px}
+.go_bt{-webkit-transition:all .1s ease;-moz-transition:all .1s ease;-ms-transition:all .1s ease;-o-transition:all .1s ease;transition:all .1s ease}
+.go_bt:hover{-webkit-transform:translateY(-6px);-moz-transform:translateY(-6px);-ms-transform:translateY(-6px);-o-transform:translateY(-6px);transform:translateY(-6px);filter:brightness(105%)}
+
+
+@media screen and (max-width:768px){
+body,html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-size:200%}
+.WRAPPER{width:100%;height:auto}
+.VISIONARY{overflow-x:hidden}
+.VISIONARY>.DREAMY h1{width:100%;height:0;margin:0 auto;position:relative;padding-bottom:55%;background-size:100%}
+.VISIONARY>.DREAMY{width:100%;height:auto;margin:0 auto;position:relative}
+.VISIONARY>.DREAMY p{width:80px;height:25px;border-radius:0 0 5px 5px;text-align:center;font:15px/25px "微軟正黑體";white-space:nowrap;right:10px}
+.VISIONARY>.DREAMY p a{display:block;color:#fff}
+.ROUTINE_PAGE{width:100%;height:auto ;overflow:hidden}
+.MAINTAIN{width:90%;height:auto;margin:0 auto;/*text-align:justify*/}
+.MAINTAIN>.N1{width:100%;height:auto;position:relative; }
+.MAINTAIN>.N1 h6{width:65px;height:65px;border-radius:50%;text-align:center;font:bold 40px/65px "Arial, Helvetica,sans-serif";position:absolute;left:-35px;top:-10px}
+.MAINTAIN h4{font:bold 2em/1em "微軟正黑體";margin-bottom:10px}
+.MAINTAIN h4 span{font:bold .6em/1em "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE01{display:inline-block;width:90%;text-align:center;border-radius:50px;margin:10px 15px 10px 0;white-space:nowrap;font-size: 1.2em;}
+.MAINTAIN h5.BTN_STYLE01 a{display:block;font:bold 1.5em/40px "微軟正黑體";padding-top:5px}
+.MAINTAIN h5.BTN_STYLE01 a:after{content:url(../images/hand.png?20210503001);vertical-align:middle}
+.MAINTAIN h5.BTN_STYLE02{display:inline-block;width:90%;text-align:center;border-radius:50px;margin:0 15px 10px 0;white-space:nowrap}
+.MAINTAIN h5.BTN_STYLE02 a{display:block;font:bold 1.5em/40px "微軟正黑體";padding-top:5px}
+.MAINTAIN h5.BTN_STYLE02 a:after{content:url(../images/hand.png?20210503001);vertical-align:middle}
+.MAINTAIN p{font:1em/2em "微軟正黑體";color:#333}
+.MAINTAIN p img{width:100%;height:auto}
+.MAINTAIN p span{font:bold 1em/2em "微軟正黑體"}
+.MAINTAIN p a{text-decoration:underline}
+.MAINTAIN li{color:#333;font:1em/2em "微軟正黑體"}
+.MAINTAIN li table{font-size:14px}
+.MAINTAIN li table.Table2{margin-left:-50px}
+.MAINTAIN .TABLE_BOX{width:100%;text-align:center;margin-bottom:30px}
+.MAINTAIN .TABLE_BOX tr{font:.95em/1.2em "微軟正黑體"}
+.MAINTAIN .TABLE_BOX td{font:.95em/1.2em "微軟正黑體";background-color:#fff5dd;vertical-align:middle;padding:5px}
+.MAINTAIN .TABLE_BOX tr td:last-child{padding-left:10px;text-align:left}
+.MAINTAIN .TABLE_BOX tr:first-child td{background-color:#373737;color:#1f1c1d;text-align:center;padding-left:0}
+.MAINTAIN .T_CENTER tr td:last-child{padding-left:0;text-align:center}
+.NOTE{width:100%;height:auto;background-color:#373737;overflow:hidden}
+.NOTE h4{font:bold 2em/2em "微軟正黑體";text-align:center;padding-top:10px}
+.NOTE ol{width:88%;height:auto;text-align:justify;margin:0 auto;padding-left:5%}
+.NOTE .Rule{width:88%;height:auto;text-align:justify;margin:0 auto;padding-left:5%}
+.NOTE li{font:.9em/1.5em "微軟正黑體";margin-bottom:30px}
+.share-bar{width:100%!important}
+.share-bar #rolltop{display:none}
+.WEB{display:block;width:100%}
+.FOOTER{width:100%;margin:0 auto;background:url(../images/footer-bg.jpg) repeat-x;overflow:hidden;background-size:cover}
+.footerbox{width:100%;margin:0 auto;text-align:center}
+.QrCodeImg{width:100%;height:auto}
+.PercentList li{margin-bottom:2vmin;position:relative}
+.PercentList li a{width:20vmin;height:20vmin;border-radius:10px;padding:2%}
+.PercentList .Percent .Number{font-size:10vmin}
+.PercentList .All .Ps{font-size:5vmin}
+.PercentList .Percent .SymPercent{font-size:5vmin}
+.PercentList .All .Ps2{left:26vmin;top:-23px}
+.PercentList .All{display:block;margin-bottom:5vmin}
+.PercentList .Sym{font-size:4vmin}
+#Table1,#Table2{width:100%}
+.Contanter{padding-bottom:0;background-size:100%;background-position:center 0,center bottom -30px,center 185vmin}
+.balloon1{z-index:5;left:9vmin;margin:0;top:9vmin}
+.balloon1 img{transform:scale(.5) translate(-100%,-100%)}
+.balloon5{z-index:5;right:-30vmin;margin:0;top:28vmin}
+.balloon5 img{transform:scale(.5) translate(-100%,-100%)}
+.balloon2,.balloon3,.balloon4,.balloon6{display:none}
+.bg_01{background-size:150%}
+}
+@media screen and (max-width:600px){
+.PercentList .Sym{font-size:1vmin}
+.PercentList .All .Ps2{left:19vmin;top:-19px}
+.PercentList li a{padding:1%;height:24vmin}
+.BtnFb img{width:100%;height:auto}
+.BtnGo{padding-bottom:33%}
+}

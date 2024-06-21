@@ -1,0 +1,189 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:'Noto Sans TC',"微軟正黑體",'Century Gothic';color:#4b2e2c;position:relative;margin:auto;background:#b3e6e7 url(../images/Watermelon.png) no-repeat center 45px}
+a:focus{outline:0}
+a{text-decoration:none;color:#333}
+a:hover{text-decoration:none;color:#000}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h4,p{margin:0;padding:0}
+.Wrapper{width:950px;margin:0 auto;position:relative}
+.Header{position:relative}
+.Header .H1Block{display:flex;flex-direction:row;margin:48px 10px 0 0}
+.Header .H1Block h1{background:url(../images/h1.png) no-repeat;background-size:100%;width:634px;height:124px;right:10px;top:60px;text-indent:-9999px;-webkit-animation-name:bounceIn;animation-name:bounceIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;align-self:flex-end}
+.Header .H1Right{display:flex;flex-direction:column;flex:auto}
+.TimeBlock{display:flex;align-self:center}
+.TitleTime{font-size:1.875rem;align-self:center;margin-right:3%;margin-right:5%;flex:none}
+.Clock ul{display:flex;font-size:1.5rem}
+.Time{font-size:2.56rem}
+.Clock ul li small{font-size:1rem}
+.Clock ul li span{margin:auto}
+.Clock ul li{color:#333;display:block;box-sizing:border-box;align-self:center;padding:2%;width:50px;text-align:center}
+.Five1{background:url(../images/idol_1.png) no-repeat;background-size:100%;width:235px;height:165px;text-indent:-9999px;-webkit-animation-name:bounceIn;animation-name:bounceIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;margin:40px 0 0 34px}
+@-webkit-keyframes timeout-play{
+0%{opacity:1}
+50%{opacity:1}
+51%{opacity:0}
+100%{opacity:0}
+}
+@keyframes uptodown-play{
+0%{opacity:1}
+50%{opacity:1}
+51%{opacity:0}
+100%{opacity:0}
+}
+.Header .Wrapper{display:block}
+@-webkit-keyframes bounceIn{
+20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}
+0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}
+40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}
+60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}
+80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}
+to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+}
+@keyframes bounceIn{
+20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}
+0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}
+40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}
+60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}
+80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}
+to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+}
+.GameBlock .GameSlot{background:url(../images/SlotMove.png) no-repeat;width:686px;height:235px;margin:48px auto;background-size:100%}
+
+.TableBox{min-height:500px;padding:6% 0 0;box-sizing:border-box}
+.Section{background:url(../images/Bg1.png) no-repeat center center}
+.Section:nth-child(even){background:url(../images/Bg2.png) no-repeat center center}
+.BtnPlay a{background:url(../images/BtnPlay.png) no-repeat;width:390px;height:85px;text-indent:-9999px;display:block;position:relative;background-size:100%;margin:auto}
+.ButtnBar{margin:160px 0 5%}
+.ButtnBar ul{display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:space-around}
+.ButtnBar ul li{position:relative;z-index:0}
+.ButtnBar ul li a{width:315px;height:85px;text-indent:-9999px;display:block;-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}
+.BtnPlay a:hover,.ButtnBar ul li:hover{-webkit-transform:translateY(-6px);-ms-transform:translateY(-6px);transform:translateY(-6px)}
+.ButtnBar ul li.BtnBack a{background:url(../images/BtnBack.png) no-repeat;background-size:100%;position:relative}
+.ButtnBar ul li:nth-child(1):before{content:"";background:url(../images/idol_2.png) no-repeat;background-size:100%;width:248px;height:179px;left:0;text-indent:-9999px;position:absolute;z-index:20;top:-160px}
+.ButtnBar ul li:nth-child(2){margin-top:70px}
+.ButtnBar ul li:nth-child(2):before{content:"";background:url(../images/idol_3.png) no-repeat;background-size:100%;width:251px;height:214px;text-indent:-9999px;position:absolute;z-index:20;top:-200px;right:-40px}
+.ButtnBar ul li.BtnResult a{background:url(../images/BtnGift.png) no-repeat;background-size:100%}
+.ButtnBar ul li.BtnBackGame a{background:url(../images/BtnBackGame.png) no-repeat;background-size:100%}
+.ButtnBar ul li.BtnBackPlay a{background:url(../images/BtnBackPlay.png) no-repeat;background-size:100%}
+.theme-PD_0L8S_A .grid{flex:1}
+.card,.theme-PD_0L4S_A .grid-item img{border-radius:10px}
+.card,.go_bt,.go_bt2{-webkit-transition:all .4s ease;-moz-transition:all .4s ease;-ms-transition:all .4s ease;-o-transition:all .4s ease;transition:all .4s ease}
+.card:hover,.go_bt:hover{-webkit-transform:scale(.95);-moz-transform:scale(.95);-ms-transform:scale(.95);-o-transform:scale(.95);transform:scale(.95)}
+.go_bt2:hover{filter:brightness(120%)}
+.ActivityRow{margin:8px 0;text-align:justify;color:#fff;font-size:1.2rem;line-height:1.8;color:#333}
+.ActivityRow a{color:#ff0;text-decoration:underline}
+.Border{background-color:#fff5dd;border-radius:20px;padding:3%;margin-bottom:1%}
+.Table{width:100%;text-align:center;font-size:1rem;border-spacing:1px;display:table;border-collapse:separate;box-sizing:border-box}
+.Table th{background:#373737;color:#fff;padding:1%}
+.Table td{padding:1%;background-color:#fff5dd;color:#373737}
+
+.Table2 td{background-color: #fff;}
+.Table2 a{color: #ff5722;}
+.Table2 td:last-child{text-align: left;}
+.Table2 th:nth-child(1){width: 30%;}
+.Table2 th:nth-child(2){width: 15%;}
+.Table2 th:nth-child(3){width: 15%;}
+.Lightbox a{color:red}
+.Tip{font-size:1.5rem;margin:5px 0;line-height:1.3}
+.BtnShareLine{text-indent:-9999px;background:url(../images/BtnLine.png) no-repeat top center;width:168px;height:80px;background-size:100%;margin-right:5px;display:block}
+.BtnShareFb{text-indent:-9999px;background:url(../images/BtnFb.png) no-repeat top center;width:168px;height:80px;background-size:100%;display:block}
+.ButtonBar ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ButtonBar ul li{margin:2% 1%}
+.Information{position:relative;z-index:10}
+.PageBar{padding:20px;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.PageBar a{margin:0 1px;text-decoration:none;border:1px solid #fff;color:#fff;padding:1%}
+.PageBar a:hover{text-decoration:none}
+.PageBar a.On,.PageBar a.On:hover{font-weight:700;text-decoration:none;color:#fff;border:transparent 1px solid}
+.Lightbox{position:fixed;left:0;top:0;width:100%;height:100%;display:flex;align-items:center}
+.LightboxOverlay{background:rgba(179,230,231,.8);position:fixed;left:0;right:0;top:0;bottom:0;z-index:100}
+.LightboxWrap{z-index:101;background-color:#fff;width:90%;margin:auto;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:10px;position:relative}
+.LightboxWrap:after{content:"";display:block}
+#InforBox .LightboxWrap{min-height:287px;max-width:440px}
+#InforBox .Content{padding:5%}
+.Titlebar{position:fixed;height:55px;color:#3c3c3c;font-size:1.02rem;text-align:center;position:relative;border-bottom:1px solid #e0e0e0;line-height:3}
+.Titlebar .BtnClose{position:absolute;right:12px;top:50%;color:#adadad;width:20px;height:20px;margin-top:-10px}
+.Titlebar .BtnClose a{display:block;background:url(../images/disable@3x.png) no-repeat;width:20px;height:20px;text-indent:-9999px;background-size:100%}
+.GameBlock{min-height:500px}
+.HotPorduct{background-color:#58c9cc;padding:30px;margin-bottom:5%;border-radius:20px;position:relative;margin-bottom:2%}
+.HotPorduct h3{position:relative;text-align:center;margin-bottom:1%}
+.HotPorduct h3 span{display:inline-block;color:#fff;margin:auto;font-size:4rem;font-weight:700;position:relative;border-radius:50px;padding:0 5%}
+.HotPorduct ul{display:flex;flex-wrap:wrap}
+.HotPorduct ul li{width:23%;margin:0 1% 2%;background-color:#fff;border-radius:10px;padding:2%;box-sizing:border-box}
+.HotPorduct ul li img{width:100%;height:auto}
+.HotPorduct ul li .PidName{font-size:1rem;color:#333;margin-bottom:1%;height:48px;overflow:hidden}
+.HotPorduct ul li .PidPrice{font-size:2rem;color:#dd381d;line-height:1.5;text-align:center}
+.HotPorduct ul li .PidPrice span{font-size:1rem}
+.BtnGo{background-color:#dd381d;color:#fff;display:block;border-radius:50px;text-align:center;padding:3%}
+h4{font-size:1.8rem;text-align:center;padding:2% 0}
+@-webkit-keyframes rotating{
+from{-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}
+to{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes rotating{
+from{-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}
+to{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@media screen and (max-width:800px){
+.Wrapper{width:100%}
+.Header{padding:4vmin 5% 0 5%}
+.Header .H1Block h1{width:90%;height:0;padding-bottom:20%;margin:-11vmin auto 0;width:87vmin;height:0}
+.Center{padding:0 5% 5%}
+.GameBlockBorder{width:100%;height:auto;margin:5vmin 0 23vmin}
+.GameBlock .GameSlot{width:100%;height:0;padding-bottom:40%;margin:0}
+.Five1{width:23vmin;height:21vmin;background-size:100%;margin:0;top:inherit;right:inherit}
+.Header .H1Block{margin:0;flex-direction:column}
+.TimeBlock{margin-bottom:5%}
+.TitleTime{margin-right:2%;font-size:2rem}
+.Clock ul{font-size:2rem}
+.Clock ul li{width:9vmin;text-align:center}
+.Time{font-size:3rem}
+.BtnPlay{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.BtnPlay a{width:70%;padding-bottom:16%;height:0}
+.BtnActivity,.BtnResult{height:0;padding-bottom:calc(70/720*100%);width:100%}
+.LightboxWrap{width:77vw;height:40vh;min-height:210px}
+.Lightbox .Title{font-size:7vmin}
+.Lightbox .Wording{font-size:5vmin;overflow:hidden;line-height:1.2}
+.Tip{font-size:3.5vmin}
+.PageBar a{margin:0 .5% 5px}
+.ButtnBar ul li{width:50%}
+.ButtnBar ul li a{width:100%;height:0;padding-bottom:29%}
+.ButtnBar ul li:nth-child(1):before{top:-27vmin;width:40vmin;height:29vmin}
+.ButtnBar ul li:nth-child(2){margin-top:15vmin}
+.ButtnBar ul li:nth-child(2):before{top:-33vmin;right:-3vmin;width:40vmin;height:34vmin}
+.ButtnBar{margin:29% 1% 5%}
+h4{color:#373737}
+.HotPorduct h3 span{padding:1% 13%;font-size:8vmin;background-size:contain;line-height:1.7}
+.Section{margin: 3%;}
+}
+@media screen and (max-width:600px){
+body{background-size:160%;background-position:center 35vmin}
+.Five1{width:33vmin;height:27vmin}
+.LightboxWrap{height:25vh;width:90vw}
+.Lightbox .BtnClose{right:0;top:-50px}
+.ButtnBar ul{padding:5%}
+.TitleTime{font-size:1.2rem}
+.Clock ul{font-size:1rem}
+.Time{font-size:1.8rem}
+.GameBlockBorder{width:100%;height:auto;margin:12vmin 0 34vmin}
+.TableBox{min-height:80vmin}
+.GameBlock{min-height:inherit}
+.HotPorduct ul li{width:48%}
+.HotPorduct{padding:2%}
+.HotPorduct ul li .PidPrice{font-size:1.5rem}
+}
+@media screen and (max-width:320px){
+body{background-size:160%;background-position:center 40vmin}
+}

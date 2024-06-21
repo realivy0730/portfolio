@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+html,body{margin:0;height: 100%;}
+body{font-size:100%;line-height: 1.5; font-family:'Noto Sans TC', "微軟正黑體", 'Century Gothic' ; color: #333; position: relative; background: #26c4e1 url(../images/1920.jpg?20200803001)no-repeat center 40px;}
+a:focus{outline:0;}
+a{text-decoration:none; color: #333;}
+a:hover{text-decoration:none; color: #000;}
+img{border: 0 none; line-height:0; display: block;}
+form {margin:0;	padding:0;}
+ul, ul li {margin: 0;padding: 0;  list-style-type: none;}
+dl, dt, dd {margin: 0;padding: 0;}
+dl {height: 1%;}
+button{border:0 none; cursor:pointer;padding: 0;margin: 0;background: transparent;}
+.clearfix:before,.clearfix:after {content: "";display: table;height: 0;overflow: hidden;}
+.clearfix:after {clear: both;}
+.clearfix {	zoom: 1;}
+h1,h2,h3,p{margin:0;padding: 0;}
+/*-------------------------------------Globe------------------------------------------------*/
+.Wrapper{width: 950px; margin: auto;position: relative;}
+.Masthead{  background-size: cover;}
+h1{text-indent: -9999px;height: 0}
+
+.LinkGroup ul {display: flex;height: 530px;align-items: flex-end;justify-content: flex-end;margin-right: 20px;}
+.LinkGroup ul li{width: 50%;max-width: 245px;margin: 0 2%;margin-right: 30px;}
+
+.LinkGroup ul li.Btn i{background-color: #fff;}
+.LinkGroup ul li.Btn i:after{border-color: #333;}
+.LinkGroup ul li a{display: block;padding: 4%; background-color: #333; font-size: 2rem;border-radius: 10px; font-size: 1.5rem; color: #fff;box-shadow:0px 0px 0px 1px #000 inset;position:relative;  transition: all 0.3s ease-in-out;overflow: hidden;}
+.LinkGroup ul li a:hover {border: 4px solid #666;background-color: #FFF;box-shadow:0px 0px 0px 4px #EEE inset; color: #333;}
+.LinkGroup ul li a:after{content: ""; background-color: #fff;left: -75px;opacity: .8;position: absolute;top: -20px;-webkit-transform: rotate(35deg);transform: rotate(35deg);transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/z-index: 1; top: -20px;height: 155px;width: 20px;}
+.LinkGroup ul li a:hover:after{content: "";background: #FFF;border: 20px solid #000;opacity: 0;left: 120%;-webkit-transform: rotate(40deg);transform: rotate(40deg);}
+.Masthead{height: 640px; width: 100%;}
+/*h2 a{display: block;height: 600px; width: 100%;text-indent: -9999px}*/
+.List{padding: 5%;}
+.List li{display: flex;position: relative;margin-bottom: 5%; padding-bottom: 2%;}
+.List li:after{content: "";background: url(../images/Line.png)no-repeat bottom center;position: absolute;bottom: -60px;right: 0;left: 0;width: 100%;height: 45px;}
+.List li .HImg img{border:3px solid #fff;}
+.List li .HImg{margin-right: 5%;flex:2 0 0;}
+h3{color: #fff226; font-size: 1.875rem;height: 45px; overflow:hidden;}
+.StarGroup{color: #ffd61f;font-size: 1.875rem;}
+.Intro{font-size: 1.25rem; color: #fff; height: 155px; overflow:hidden; margin-bottom: 1%;}
+.Btn a{ background-color: #fff226; color: #ff0026;font-size: 1.875rem; border-radius: 10px; padding: 1% 5%;text-align: center;}
+.Btn i{ background-color: #ff0026; border-radius: 50px;  width: 22px; height: 22px;display: inline-block;position: relative;}
+.Btn i:after{content: "";border: solid #fff226;border-width: 0 1px 1px 0;;padding:4px;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);position: absolute; left: calc(50% - 5px);top: calc(50% - 4px);}
+
+@media screen and (max-width:768px){
+	body{background-image: none;}
+	.Wrapper{width:100%}
+	.Masthead{background: url(../images/index_m.jpg) no-repeat top center;height: 0;padding-bottom: 142%;background-size: 100%;}
+	.LinkGroup ul{height: 86vmin;margin: 0;}
+	.LinkGroup ul li{margin:1%;}
+	.LinkGroup ul li a{font-size: 5vmin;}
+	img{width: 100%;height: auto;}
+	h3{height: 10vmin;font-size: 7vmin;}
+	.Intro{height: 30vmin;margin-bottom: 1em;}
+	.List li:after{bottom: -7vmin;background-size: 100%;}
+	.List li{flex-direction: column;padding-bottom: 7%;}
+	.Btn a{display: block;text-align: center;}
+	.List li .HImg{margin-right: inherit;}
+	.LinkGroup ul li.Btn i{width: 11px;height: 11px;}
+	.Btn i:after{padding: 2px;left: calc(50% - 3px);top: calc(50% - 2px);}
+	.LinkGroup ul li{width: 42%;}
+	.LinkGroup ul{justify-content: center;}
+	.List li .HImg{margin-bottom: 3%;}
+}
+
+

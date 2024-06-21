@@ -1,0 +1,110 @@
+@charset "utf-8";
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:"微軟正黑體","LiHei Pro",Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#424242;position:relative;margin:auto;background:url(../images/MainBg.jpg) 0 0 no-repeat fixed;max-width:1920px;background-size:cover}
+a:focus{outline:0}
+a{text-decoration:underline;color:#fff}
+a:hover{text-decoration:none;color:#fff}
+img{border:0 none;line-height:0}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h6,p{margin:0;padding:0}
+.Container{width:100%;overflow:hidden;position:relative}
+.Header{background-color:#000;height:57px;position:fixed;top:0;z-index:20;left:0;right:0;top:0}
+.BtnBack{position:fixed;top:0;left:0;z-index:30}
+.BtnBack a{background:url(../images/MainLogo.png) no-repeat;width:300px;height:500px;text-indent:-9999px;display:block;background-size:100%}
+#Main{height:970px;position:relative;z-index:10}
+#FigureBg{background:url(../images/MiddleBg.jpg) 50% 0 no-repeat fixed;height:486px;position:relative}
+#Activity{position:relative;overflow:hidden}
+.Figure1{position:absolute;right:50%;top:0;z-index:2;left:0;bottom:0;margin:0 0 0 -17%}
+#Record .Figure1{right:60%}
+.Figure1 .People{background:url(../images/MainFigure.png) no-repeat right bottom;width:100%;height:0;background-size:100%;padding-bottom:100%}
+.TitleBlock{z-index:10;position:absolute;right:0;bottom:0;left:0;top:0;background:url(../images/TitleBg.png) no-repeat right bottom}
+.Figure2{position:absolute;right:0;top:0}
+.Figure2 .People{background:url(../images/SectionFigure.png) no-repeat 0 0;width:952px;height:486px;background-size:100%}
+.Figure3{position:absolute;left:0;bottom:0;z-index:5}
+.Figure3 .People{background:url(../images/ThirdFigure.png) no-repeat 0 0;width:730px;height:1300px;background-size:100%}
+.BtnGo{position:absolute;bottom:9px;right:438px}
+.BtnGo a{background:url(../images/BtnGo.gif) no-repeat 0 0;width:613px;height:89px;display:block;text-indent:-9999px}
+.BtnSearch{position:absolute;bottom:18px;right:0;z-index:10}
+.BtnSearch a{background:url(../images/BtnSearch.png) no-repeat 0 0;width:425px;height:92px;display:block;text-indent:-9999px}
+.Sharp{position:relative;color:#fff;padding:1% 22% 2% 220px;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
+.Sharp:after{content:"";position:absolute;left:0;right:-30%;top:0;bottom:0;background-color:rgba(153,0,0,.7);-webkit-transform:skew(-30deg);-moz-transform:skew(-30deg);-o-transform:skew(-30deg);z-index:-1}
+.Sharp2{position:relative;color:#fff;padding:1% 19% 2% 354px;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);margin-top:-2%}
+.Sharp2:after{content:"";position:absolute;left:30px;right:0;top:0;bottom:0;background-color:rgba(0,0,0,.7);-webkit-transform:skew(30deg);-moz-transform:skew(30deg);-o-transform:skew(30deg);z-index:-1}
+.ActivityBlock{position:relative;z-index:1;font-size:.8rem;line-height:2}
+.ActivityBlock h3{background:url(../images/h3.png) no-repeat 0 bottom;height:100px;margin:0 0 0 240px;text-indent:-9999px}
+.ActivityBlock h4{font-size:1.2rem;margin:0 0 0}
+.ActivityBlock ol li ol li{list-style:disc}
+.ActivityBlock ol{margin-top:0}
+.AwardBlock{padding:0 430px 1% 150px}
+.AwardBlock.Sharp:after{background-color:rgba(153,0,0,.9);margin-top:-2%}
+.Table{color:#fff}
+.Table th{background-color:#6b0003;border-bottom:1px solid #fff;padding:0 1%;text-align:left;white-space:nowrap}
+.Table td{border-bottom:1px solid #fff;padding:0 1%;white-space:nowrap}
+.skrollr-mobile{overflow:inherit!important}
+.skrollr-mobile body{overflow:inherit!important}
+#Record #Main{background:url(../images/inner1.jpg) 50% 0 no-repeat;height:465px;position:relative;z-index:1}
+#Record #FigureBg{background:url(../images/inner2.jpg) 50% 0 no-repeat;height:272px;position:relative}
+#Record #Activity{position:relative;overflow:hidden}
+.rule{background-color:#000;width:900px;margin:auto;padding:1%}
+h4{color:#fff}
+.ps2{color:#fff;text-align:center}
+.Table .Finished td{color:#666}
+#Record .Table td{padding:1% 2%}
+#Record .Table th{background-color:#000}
+.Buttonbar ul{text-align:center}
+.Buttonbar ul li{display:inline-block;width:33%;margin:0 -1%}
+.note{color:#fff}
+@media screen and (max-width:1550px){
+.AwardBlock{padding:0 430px 1% 250px}
+.main{z-index:40;position:relative}
+}
+@media screen and (max-width:1200px){
+.Figure1{display:none}
+.Figure3{display:none}
+}
+@media screen and (max-width:1024px){
+#FigureBg{background-size:cover}
+.Sharp2:after,.Sharp:after{display:none}
+.Sharp,.Sharp2{margin:3%;-webkit-transform:translate3d(0,0,0)!important;transform:translate3d(0,0,0)!important;padding:2%}
+.ActivityBlockArea{-webkit-transform:translate3d(0,0,0)!important;transform:translate3d(0,0,0)!important}
+.ActivityBox{background-color:rgba(153,0,0,.9)}
+#Activity2 .ActivityBox{background-color:rgba(0,0,0,.9)}
+.AwardBlock{background-color:rgba(153,0,0,.9)}
+.Table td{white-space:inherit}
+.Table th{white-space:inherit}
+.Table td:last-child{width:20%}
+#Record .Table td:last-child{width:auto}
+.BtnGift img{width:100%;height:auto}
+.ActivityBlock h4{font-size:1rem}
+}
+@media screen and (max-width:768px){
+.Header{height:25px}
+.BtnBack a{width:150px;height:0;padding-bottom:170%}
+.TitleBlock{background:#c2070a url(../images/TitleBg_m.png) no-repeat top center;width:90%;margin:0 auto 5px;background-size:100%;top:0;position:relative;padding-bottom:88%;height:0}
+#Main{height:auto;padding:10% 0 20%}
+.BtnGo{left:0;right:0;bottom:0}
+.BtnGo a{width:90%;background-size:100%;height:0;padding-bottom:16%;margin:auto}
+.BtnSearch{position:relative;bottom:inherit;height:0;right:0}
+.BtnSearch a{width:65%;height:0;padding-bottom:15%;background-size:100%;background-position:right center;float:right}
+.Figure2{position:relative;right:0!important}
+#FigureBg{height:auto}
+#Activity{height:auto}
+.Figure2 .People{width:100%;height:0;padding-bottom:50%;background-position:center center}
+.ActivityBlock h3{height:0;padding-bottom:17%;width:100%;background-position:center;margin:3% 0}
+#Record #Main{height:0;padding-bottom:34%;background-size:180%;background-position:76% 50%}
+#Record #FigureBg{height:0;padding-bottom:25%;background-size:180%;background-position:76% 50%}
+.rule{width:90%;margin:auto}
+#Record #Activity{height:auto;padding:5% 0}
+.Buttonbar ul li{width:100%}
+}
+@media screen and (max-width:414px){
+.BtnBack a{width:80px;height:0;padding-bottom:170%}
+}

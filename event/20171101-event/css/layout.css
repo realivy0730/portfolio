@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html,body{margin:0;height: 100%;}
+body {height: 100%;width: 100%;margin: 0;padding: 0;}
+body{font-size:100%;line-height: 1.5; font-family:'微軟正黑體', 'Century Gothic' ; color: #fff; position: relative; background-color:#000;}
+a:focus{outline:0;}
+a{text-decoration:none; color: #333;}
+a:hover{text-decoration:none; color: #000;}
+img{border: 0 none; line-height:0; display: block;}
+form {margin:0;	padding:0;}
+ul, ul li ,ol, ol li {margin: 0;padding: 0;  list-style-type: none;}
+dl, dt, dd {margin: 0;padding: 0;}
+dl {height: 1%;}
+button{border:0 none; cursor:pointer;padding: 0;margin: 0;background: transparent;}
+.clearfix:before,.clearfix:after {content: "";display: table;height: 0;overflow: hidden;}
+.clearfix:after {clear: both;}
+.clearfix {	zoom: 1;}
+h1,h2,h3,h4,p{margin:0;padding: 0;}
+/*-------------------------------------Globe------------------------------------------------*/
+
+.Wrapper{width: 1030px; margin:auto;}
+.Bg{position: absolute;left: 50%;background: url(../images/main.png) no-repeat center top;width: 1920px;height: 1520px;margin: 0 0 0 -960px;}
+.Header .Wrapper{ position: relative;height: 874px;}
+.Container{background: url(../images/Bg.jpg) no-repeat center top; position: relative;min-height: 1400px;}
+.LinkAppGroup{position: absolute;right: 50%;top: 624px;width: 530px;margin: 0 -467px 0 0;}
+.LinkAppGroup li{float: left; margin:0 3px;}
+.LinkAppGroup li:first-child a:nth-child(1){margin-bottom: 10px; display: block;}
+.Block{padding: 40px 30px;box-sizing: border-box;}
+.BillList{background: url(../images/Block1.png) no-repeat center top; width: 506px; height: 340px;position: relative; float: left;margin-right: 8px;}
+.BillList h3{background: url(../images/TitleBlock1.png) no-repeat center top; width: 240px; height: 90px;text-indent: -9999px; margin-bottom: 10px;}
+.BillList ol li{margin-bottom: 3px;font-size: 1.5rem;}
+.BillList ol li i{border-radius: 50px;background-color: #5cfe0b;color: #1e2026;display: inline-block;width: 30px;height: 30px;text-align: center;line-height: 1.1;font-style: normal;margin-right: 7px;}
+.BtnGo{position: absolute;right: 0;top: 50%; margin-top: -145px;}
+.BtnGo a{background: url(../images/BtnGo.png) no-repeat center top; width: 250px; height: 245px;text-indent: -9999px; display: block;}
+.GameRun{background: url(../images/RunOn.gif) no-repeat center top; width: 515px; height: 350px;}
+.GameBlock{float: left;position: relative;}
+.BtnPlay{position: absolute;bottom: 30px;left: 50%;margin: 0 0 0 -125px;}
+.BtnPlay a{width: 250px; height: 66px;text-indent: -9999px; display: block;}
+.GameIntro{margin-bottom: 20px;	}
+.GameIntro .Wording{ width: 62%; float: left; font-size: 1.5rem; margin-right: 1%;line-height: 1.8;}
+.FlyNav{position: fixed;top: 55px;right: 50%;z-index: 10; display: none;margin: 0 -662px 0 0;}
+.FlyNav ul{background: url(../images/FlyNav.png) no-repeat; width: 145px; height: 338px; box-sizing: border-box;}
+.FlyNav ul li a{ display: block; width: 145px;text-indent: -9999px; }
+.FlyNav ul li:nth-child(1) a{height: 56px;}
+.FlyNav ul li:nth-child(1){padding-top: 49px;}
+.FlyNav ul li:nth-child(2) a{height: 48px;}
+.FlyNav ul li:nth-child(3) a{height: 49px;}
+.FlyNav ul li:nth-child(4) a{height: 49px;}
+.FlyNav ul li:nth-child(5) a{height: 57px;}
+.Box{-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 90%, 95% 100%, 0 100%);
+	clip-path: polygon(0% 0%, 100% 0, 100% 90%, 95% 100%, 0 100%);
+	background-color: rgba(36, 34, 63,.8);
+	padding: 20px 20px 50px;
+	border:1px solid #060605;
+	position: relative;
+
+}
+.Box h3{font-family: 'Noto Sans TC';/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#caff7d+0,a4ff21+100 */
+background: #caff7d; /* Old browsers */
+background: -moz-linear-gradient(top, #caff7d 0%, #a4ff21 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #caff7d 0%,#a4ff21 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #caff7d 0%,#a4ff21 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#caff7d', endColorstr='#a4ff21',GradientType=0 ); /* IE6-9 */
+font-size: 2.3rem;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+margin-bottom: 20px;
+position: relative;
+
+}
+.Box h3:before{content: "";left: 0;width: 41%;font-size: .8rem;background: url(../images/h3Line.png);background-size: cover;height: 10px;right: 0;position: absolute;top: 50%;margin: -5px 0 0;}
+.Box h3:after{content: "";right: 0;width: 41%;font-size: .8rem;background: url(../images/h3Line.png);background-size: cover;height: 10px;right: 0;position: absolute;top: 50%;margin: -5px 0 0;}
+.Box:after{content: "";}
+.Box:after{content: "";height: 4px; background-color:#35334b; left: 0; right: 0; bottom: 4px; position: absolute;}
+.content_table{background: #000; width: 80%;margin: auto; font-size: 1.5rem;}
+.content_table td,.content_table th{padding: 3%;text-align: center; border-left: 1px solid #242343; border-bottom: 1px solid #242343;}
+.content_table th{ border-top: 1px solid #242343;white-space: nowrap;}
+.ButtonBar{padding: 5% 0 1%; text-align: center;}
+.Btn{background: #e21f0b;font-size: 2rem; padding:.5rem 4rem; color: #fff;}
+.Btn:hover{color: #fff;}
+
+.brightness2-play { -webkit-animation:brightness2-play 1.8s -0.14s linear infinite ; animation:brightness2-play 1.8s -0.14s linear infinite ;}
+	@keyframes brightness2-play {
+	  0% {
+		filter:brightness(100%);
+	  }
+	  88% {
+		filter:brightness(100%);
+	  }
+	  91% {
+		filter:brightness(500%);
+	  }
+	  94% {
+		filter:brightness(100%);
+	  }
+	  97% {
+		filter:brightness(500%);
+	  }
+	  100% {
+		filter:brightness(100%);
+	  }
+	}
+.MiddleBlock{margin-top: -80px;}
+.Box#ActivityArea {-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 98%, 95% 100%, 0 100%);clip-path: polygon(0% 0%, 100% 0, 100% 98%, 95% 100%, 0 100%);font-size: 1.1rem;padding: 3% 6%;line-height: 1.6;}
+.ActivityBlock .Title{color: #fff440;}
+.Box#ActivityArea .content_table{width: 100%; font-size: 1.1rem; border-right:1px solid #fff;border-top:1px solid #fff;margin:3%  0 ;}
+.Box#ActivityArea .content_table td,.Box#ActivityArea .content_table th{border-left:1px solid #fff;border-bottom:1px solid #fff;}
+.ActivityBlock ul li{margin-left: 20px; list-style-type: initial;}
+.ActivityBlock ol li{margin-left: 20px; list-style-type: decimal;}
+.ActivityBlock{margin-bottom: 20px;}
+
+.Web{display: block;}
+.Mobile{display: none;}
+
+@media screen and (max-width:768px){
+
+	*{ margin:0; padding:0;}
+	body, html{ box-sizing:border-box; -webkit-box-sizing:border-box;}
+	img{width: 100%; height: auto;}
+	.Header .Wrapper{height: auto;}
+	.Wrapper{width: 100%; margin: auto;}
+	.Container{   background: url(../images/Splash_m.jpg) no-repeat center top;background-size: 100%;}
+	.Bg{margin: inherit;width: 100%;height: 0;position: inherit;left: inherit;padding-bottom: 150%;     background: none;}
+	.Container{min-height: inherit;}
+
+	.mFlyNav{ display: block; background:rgba(0,0,0,.8); position: fixed;bottom: 0; left: 0; right: 0; z-index: 10;}
+	.mFlyNav ul li{ float: left; box-sizing: border-box; position: relative;font-size: .9rem; border-right:1px solid #fff ; width: 33%;text-align: center; padding: 1%;border-bottom: 1px solid #827b71;}
+	.mFlyNav ul li a{ color: #fff; }
+	.mFlyNav ul li:first-child img{position: absolute;top: 0;width: 119%;right: -15px;}
+	.mFlyNav ul li:nth-child(4) {border-bottom: 0 none;border-left:1px solid #fff ;}
+	.mFlyNav ul li:nth-child(5) {border-bottom: 0 none;}
+	.mFlyNav ul li:nth-child(6) {border-bottom: 0 none;}
+	.MiddleBlock{padding: 5%;}
+	.LinkAppGroup{position: inherit;right: inherit;top: inherit;width: inherit;margin: inherit;}
+	.LinkAppGroup li:nth-child(2){display: none;}
+	.LinkAppGroup li:first-child a:nth-child(2){ display: block;margin-bottom: 10px; }
+	.MiddleBlock{margin-top: 0;padding-bottom: 16%;}
+	.LinkAppGroup{width: 30%;position: absolute;right: 5%;	}
+	.LinkAppGroup li{float: right;}
+	.Header{margin-top:-60%;padding-bottom: 58%;}
+	.BillList{width: 100%;background-size: 100%;height: 0;float: none;padding: 8% 4% 62% 6%;}
+	.BillList h3{width: 50%;background-size: 100%;height: auto;padding-bottom: 12%; margin-bottom: 1%;}
+	.BtnGo{width: 50%;margin-top: -30%;}
+	.BtnGo a{width: 100%;background-size: 100%;height: 0;padding-bottom: 100%;}
+	.BillList ol li{font-size: 1rem;}
+	.BillList ol li i{width: 15px; height: 15px;}
+	.GameBlock{float: none;}
+	.GameRun{background-size: 100%;width: 100%;height: 0;padding-bottom: 71%;}
+	.Box h3{font-size: 1.1rem;padding-top: 5%;margin-bottom: 3%;}
+	.GameIntro h3{text-align: left;}
+	.Box h3:before{width: 50%;top: 0;}
+	.Box h3:after{width: 50%;top: 0;}
+	.GameIntro .Wording{width: inherit;float: none;font-size: 1rem;margin: 0 0 4%;line-height: 1.8;}
+	.Box{-webkit-clip-path: polygon(0% 0%, 100% 0, 100% 97%, 95% 100%, 0 100%);clip-path: polygon(0% 0%, 100% 0, 100% 97%, 95% 100%, 0 100%);}
+	.content_table{font-size: 1rem;width: 100%;}
+	.Btn{font-size: 1.2rem;}
+	.Box#ActivityArea{    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 99%, 92% 100%, 0 100%);clip-path: polygon(0% 0%, 100% 0, 100% 99%, 92% 100%, 0 100%);}
+	.content_table th{word-break: break-all;white-space:inherit;}
+
+}
+

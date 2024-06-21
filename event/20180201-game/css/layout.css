@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{margin:0;height: 100%;}
+body {height: 100%;width: 100%;margin: 0;padding: 0;}
+body{font-size:100%;line-height: 1.5; font-family: "微軟正黑體", "LiHei Pro", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; color: #424242; position: relative; background-color: #ff1430;}
+a:focus{outline:0;}
+a{text-decoration:none; color: #000;}
+a:hover{text-decoration:none; color: #000;}
+img{border: 0 none; line-height:0; display: block;}
+form {margin:0;	padding:0;}
+ul, ul li {margin: 0;padding: 0;  list-style-type: none;}
+dl, dt, dd {margin: 0;padding: 0;}
+dl {height: 1%;}
+button{border:0 none; cursor:pointer;padding: 0;margin: 0;background: transparent;}
+.clearfix:before,.clearfix:after {content: "";display: table;height: 0;overflow: hidden;}
+.clearfix:after {clear: both;}
+.clearfix {	zoom: 1;}
+h1,h2,h3,h6,p{margin:0;padding: 0;}
+/*-------------------------------------Globe------------------------------------------------*/
+.Container{ background: url(../images/Splash.png) no-repeat top center;}
+/*.Container{background: url(../images/main.jpg) no-repeat top center;}*/
+.Wrapper{ width: 960px;margin: auto; }
+.BtnBack{ display: block; text-indent: -9999px; background: url(../images/BtnMain.png) no-repeat top center; width:120px; height: 120px; margin: 0 0 0 7px;}
+.Header{position: relative;height: 570px;}
+.GameItemList{ background: url(../images/GameBg.png) no-repeat top center;margin: 0 auto 10px;padding: 2%;}
+.GameItemList li{text-align: center;position: relative;width: 24%;float: left;margin: .5%;position: relative;}
+.GameItemList li{ width: 220px; height: 150px; }
+/*.GameItemList li a{width: 220px; height: 150px;  background: url(../images/RedEnvelope.png) no-repeat; background-size: 100%; display: block; margin: auto;-webkit-box-shadow: 0 12px 10px 0 rgba(0,0,0,0.1);box-shadow: 0 12px 10px 0 rgba(0,0,0,0.1);transition: 0.3s all;position: relative;}*/
+.GameItemList li a{display: block;width: 220px; height: 150px; }
+.GameItemList li a .HoverF2{opacity:0; z-index: 1;display: none;}
+.GameItemList li a:hover .HoverF2{transform-origin:center center;opacity:1;z-index: 1; display: block;}
+.HoverF2{opacity: 0;position: absolute;top: 50%; left: 50%;z-index: 10;}
+.PlayOn .HoverF2{
+	-webkit-animation: Hand .3s;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: Hand .3s;
+	-moz-transform-origin: 50% 50%;
+	-moz-animation-fill-mode: forwards;
+}
+@-webkit-keyframes Hand {
+	0% { transform: rotate(-2deg) scale(2);  opacity:0; display: none;}
+	100% { transform: rotate(-2deg) scale(1);  opacity:1;display: block;}
+}
+@keyframes Hand {
+	0% { transform: rotate(-2deg) scale(2);  opacity:0; display: none;}
+	100% { transform: rotate(-2deg) scale(1);  opacity:1;display: block;}
+}
+.CoverImg{display: none;}
+.Hit .CoverImg{background: url(../images/broken-paper.png) no-repeat top center;position: absolute;width: 100%;display: block; background-size: 100%;height: 150px;}
+.Web{display: block;}
+.Mobile{display: none;}
+.rule{font-size: .9rem;}
+.BtnResult i { color: #fff; display: inline-block; margin-left: 3px;font-family: "微軟正黑體",verdana;}
+.Poster{position: absolute;right: -20px;top: -522px;}
+.rule{ background-color: #fff; padding: 2em; color: #000; line-height: 1.5;font-size: 1rem;margin-bottom: 30px;}
+#Search .rule{ background: url(../images/GameBg.png) no-repeat top center;margin: 0 auto 10px;min-height: 490px;}
+.content_table{width: 95%;margin: auto;}
+.content_table th{ background-color: #ffccd2;border-bottom: 2px solid #fff; border-left: 2px solid #fff;padding: 7px; }
+.content_table td{ background-color: #ffe5e8; border-bottom: 2px solid #fff; border-left: 2px solid #fff;padding: 7px;}
+.content_table td:first-child{text-align: center;}
+.ActivityBlock{margin:0 30px 30px;}
+.ActivityBlock h3{position: relative; padding-left: 15px; margin-bottom: 5px; font-size: 1rem;}
+.ActivityBlock h3:before{content: ""; position: absolute;left: 0; width: 4px; height: 24px; background-color: #ff1430; top: 0; }
+.ActivityBlock div{text-indent: 20px;}
+.ActivityBlock a{  border-bottom: 1px solid #ff1430;padding-bottom: 2px; color: #ff1430;}
+
+.yellow_text{font-size: 2rem; text-align: center;}
+.ps2{color: #ff0000; text-align: center; }
+.Buttonbar{width: 70%;margin:3% auto;}
+.Buttonbar ul{display: flex;}
+.Buttonbar ul li{padding:0 10px;  flex: 1;text-align: center;}
+.Buttonbar ul li a{margin: auto;border-width: 6px;border-color: rgb(29, 0, 75);border-style: solid;background-color: rgb(255, 255, 255);border-radius: 50px;padding: 2% 10%;font-size: 1.8rem;width: 70%;display: block;}
+/*.BtnRetry{display: block; text-indent: -9999px; background: url(../images/BtnRetry.png) ; width:300px; height: 54px; background-size: 100%;}
+.BtnActivity{display: block; text-indent: -9999px; background: url(../images/BtnActivity.png) ; width:283px; height: 54px; background-size: 100%;}*/
+.Chuo{display: block; text-indent: -9999px; background: url(../images/Chuo.png) no-repeat; width:280px; height: 280px; background-size: 100%; position: absolute; left: 50%;top: 50%; transform:translate(-50% ,-50%);}
+mark{ background-color: #ffff00; }
+.Arrow{background: url(../images/arrow.png) no-repeat top center; width: 146px; height: 256px;position: absolute;right: 4%;bottom: 0;}
+/*主標微亮*/
+.hue-rotate-play { -webkit-animation:hue-rotate-play 2s linear infinite alternate;
+				           animation:hue-rotate-play 2s linear infinite alternate;}
+	@keyframes hue-rotate-play {
+	  0% {
+		filter:brightness(100%);
+	  }
+	  50% {
+		filter:brightness(180%) ;
+	  }
+	  100% {
+		filter:brightness(80%) ;
+	  }
+	}
+
+
+/*主標微暗*/
+.show{ -webkit-animation:show 1s linear infinite alternate; animation:show 1s linear infinite alternate ; visibility: hidden;}
+	@-webkit-keyframes show {
+		50% {visibility: hidden;}
+		100% {visibility: visible;}
+	}
+	@keyframes show {
+		50% {visibility: hidden;}
+		100% {visibility: visible;}
+	}
+.LightboxOverlay{ background:rgba(0,0,0,0.5); position:fixed; left:0;right:0; top: 0; bottom:0; z-index: 100; }
+.LightboxWrap{ position:fixed; left: 50%; top: 50%; width:654px; height:417px;margin: -208px 0 0 -327px; z-index: 101;background: url(../images/Bgwinner.png) no-repeat;}
+.Lightbox .BtnClose a{background:url('../images/BtnClose.png') no-repeat;text-indent: -9999px; width: 30px; height: 30px; display: block;background-size: 100%; position: absolute;right: 11%; top: 13%;}
+.Lightbox .Information{text-align: center; padding: 20% 0 0;}
+.Lightbox .Information h3{font-size: 2.2rem;}
+.GiftW{font-size: 1.8rem;}
+@media screen and (max-width:768px){
+	.Wrapper{ width: 100%; }
+	.Theme{margin: 0;}
+	img{width: 100%;height: auto;}
+	.BtnLinkGroup{text-align: center;padding: 1% 0 5%;}
+	.Web{display: none;}
+	.Mobile{display: block;}
+	.ActivityBlock {margin:0;}
+	.Container{ background-size: 180%; }
+	.Header{padding-bottom: 53%;height: 0;}
+	.GameItemList li .GameItem{width: 100%; height: auto;}
+	.GameItemList{margin: 0; background-size: cover;}
+	.BtnBack{width: 60px; height: 60px; background-size: 100%;}
+	.Chuo{background-size: 100%;width: 26%;height: auto;margin: 0;padding-bottom: 25%;}
+	.content_table{width: 100%;margin: auto;}
+	#Search .rule{min-height: inherit;background: #8ab2fe none;}
+	.Buttonbar{width: 100%;}
+	.Buttonbar ul li a{font-size: 1rem; width: 80%;}
+	.LightboxWrap{ width: 90%; height: 0;margin: -50% 0 0 -45%; padding-bottom: 61%; background-size: 100%; }
+	.Lightbox .BtnClose a{width: 15px; height: 15px;}
+	.Lightbox .Information h3{font-size:1.5rem;}
+	.GiftW{font-size:1.2rem;}
+	.GameItemList li{width: 24%;height: auto;}
+	.GameItemList li a{width: 100%;height: auto;}
+	.Arrow{width: 10%;height: auto;padding-bottom: 18%;background-size: 100%;right: 10%;}
+}
+

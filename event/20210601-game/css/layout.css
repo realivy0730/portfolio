@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:'Noto Sans TC',"微軟正黑體",'Century Gothic';color:#333;position:relative;margin:auto;background:#f48545 url(../images/bg.png) no-repeat center 45px;background-size:inherit}
+a:focus{outline:0}
+a{text-decoration:none;color:#000}
+a:hover{text-decoration:none;color:#fff}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h4,h6,p{margin:0;padding:0}
+.Btn{font-size:3rem;color:#fff;width:50%;margin:auto;border-radius:30px;background-color:#ba0000;border:4px solid #fff;box-shadow:-5px 8px 0 0 rgb(102 0 0),inset 0 0 30px 0 rgb(20 20 20 / 30%);padding:1% 7% 2%;display:block;max-width:250px;line-height:1;top:-17px}
+.Header{position:relative;z-index:2}
+.idol{background:url(../images/idol2.png) no-repeat;width:146px;height:0;text-indent:-9999px;background-size:100%;height:264px;position:absolute;left:20px;top:135px}
+h1{background:url(../images/h1.png) no-repeat;width:950px;height:0;text-indent:-9999px;background-size:100%;padding-bottom:40.2%;margin:auto}
+.Wrapper{width:1000px;margin:auto;position:relative}
+.BtnBack{display:block;width:116px;height:147px;position:absolute;transition:all .1s ease;background:url(../images/BtnBack.png) no-repeat;background-size:100%;text-indent:-9999px;position:absolute;left:-50px}
+.Container{background:url(../images/bg2.png) no-repeat center top;margin-top:-16px;background-size:100%}
+.GiftItem{margin-bottom:4em;position:relative}
+.GiftTitle{width:501px;height:72px;text-indent:-9999px;margin:auto;position:absolute;left:0;right:0;z-index:5;top:-36px}
+#Gift01 .GiftTitle{background:url(../images/h3_01.png) no-repeat;background-size:100%;height:85px;margin-right:29%}
+#GameList .GiftTitle{background:url(../images/h3_02.png) no-repeat;background-size:100%}
+#GiftNote .GiftTitle{background:url(../images/h3_03.png) no-repeat;background-size:100%}
+#Record .GiftTitle{background:url(../images/h3_05.png) no-repeat;background-size:100%}
+.GiftTitle .Border{background:#feccc0;display:block;padding:1rem 2rem;border-radius:50px;font-size:3rem;color:#303e63}
+.GiftTitle .Border .Date{font-size:2.5rem;color:#ff5c66;font-family:Century Gothic;font-weight:700}
+.LinkDetail{display:inline-block;background-color:#303e63;padding:.2rem 1rem;color:#fff;font-size:20px;vertical-align:middle}
+.GiftBorder{border:5px solid #510101;background-color:#fff;padding:50px 30px 30px;box-sizing:border-box;border-radius:10px;max-width:950px;margin:auto;position:relative}
+#GameList .GiftBorder{background-color:#dfdfdf}
+#GiftNote .GiftBorder{border:8px solid #510101}
+.GiftFlex{display:flex;margin-bottom:3%}
+.GiftImg{flex:1;position:relative;text-align:center}
+.GiftImg img{margin:auto}
+.LinkIntro{background-color:#303e63;color:#fff;position:absolute;bottom:0;left:0;right:0;font-size:40px;color:#fff;text-align:center;padding:.7% 0}
+.LinkIntro a{color:#fff;display:block}
+.LinkIntro span{color:#fff}
+.GameList{display:flex;flex-wrap:wrap}
+.GameList li{border-radius:30px;border:3px solid #0170fe;width:22.4%;margin:0 .5% 2%;background-color:#0170fe;position:relative;padding:4px}
+.GameList li .GiftName{font-size:20px;color:#fff;text-align:center;line-height:1.4;padding:3% 0;font-weight:700}
+.GameList li .GiftName span{font-size:2.5rem}
+.GameList li .GiftImg img{border-radius:30px 30px 0 0;width:100%;height:auto}
+.GameList li .Label{background-color:#0170fe;border-radius:100px;position:absolute;right:-10px;top:-10px;padding:4px}
+.GameList li .Label span{display:block;border:2px solid #fff;background-color:#e60012;color:#fff;border-radius:100px;width:55px;height:55px;text-align:center;font-size:1.1rem;line-height:18px;padding-top:11%;box-sizing:border-box}
+.GiftName{flex:1;margin-left:2%}
+.GiftList{padding:0;position:relative;z-index:2}
+.GiftName h3{color:#0170fe;font-size:3rem;font-weight:700;line-height:1.3;margin-bottom:.2em}
+.GiftName .SubTitle{font-size:1.8rem;color:#3c3c3c;line-height:1.3;font-weight:700;margin-bottom:60px}
+.GiftItem:nth-child(4) .GiftName .SubTitle{margin-bottom:10px}
+.GiftName .Discript{font-size:1.2rem}
+.LinkGo{position:relative;margin:2% 0 1%}
+.LinkGo a{display:block;width:980px;height:122px;text-indent:-9999px;background:url(../images/BtnGo.png) no-repeat;background-size:100%;margin:auto}
+.BtnWinner{display:block;width:702px;height:102px;text-indent:-9999px;background:url(../images/BtnWinner.png) no-repeat;background-size:100%;margin:auto}
+.BtnBackGame{display:block;width:460px;height:90px;text-indent:-9999px;background:url(../images/BtnBackGame.png) no-repeat;background-size:100%;margin:auto;margin:5% auto}
+.go_bt{-webkit-transition:all .1s ease;-moz-transition:all .1s ease;-ms-transition:all .1s ease;-o-transition:all .1s ease;transition:all .1s ease}
+.go_bt:hover{-webkit-transform:translateY(6px);-moz-transform:translateY(6px);-ms-transform:translateY(6px);-o-transform:translateY(6px);transform:translateY(6px);filter:brightness(105%)}
+.ButtnBar{margin-bottom:5em}
+.ButtnBar ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ButtnBar ul li{width:40%;margin:2%}
+.ButtnBar ul li a{-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;box-sizing:border-box}
+.ButtnBar ul li a:hover{-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px)}
+.ButtnBar ul li i{margin-left:5px;width:0;height:0;border-style:solid;border-width:10px 0 10px 18px;border-color:transparent transparent transparent #fff;display:inline-block;vertical-align:middle}
+.flip{-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;text-align:center;font-size:1.8rem;color:#fff;width:40%;max-width:230px;background-color:#510101;padding:.5% 0;margin:.5em auto;position:relative}
+.flip:after{content:"";position:absolute;border:1px dashed #510101;width:130%;right:-130%;margin:auto;top:25px;z-index:1}
+.flip:before{content:"";position:absolute;border:1px dashed #510101;width:130%;left:-130%;margin:auto;top:25px;z-index:1}
+.flip i{margin-left:5px;width:0;height:0;border-style:solid;border-width:0 9px 10px 9px;border-color:transparent transparent #fff transparent;display:inline-block;vertical-align:middle}
+.Activited.flip i{width:0;height:0;border-style:solid;border-width:10px 9px 0 9px;border-color:#fff transparent transparent transparent}
+.GiftActivity h5{font-size:1.5rem;color:#e4007f;margin:10px 0 0;text-align:center}
+.Lightbox .BtnClose a{background:url(../images/BtnClose.png) no-repeat;text-indent:-9999px;width:55px;height:55px;display:block;background-size:100%;position:absolute;right:0;top:-8%}
+.Note{font-size:20px;color:#313131;text-align:center}
+.ImpFont{font-size:30px;color:#e73f3f;margin:2% 0}
+small{font-size:1.5rem}
+#Record{padding:0 5% 2%}
+#Record .GiftName{margin:0;text-align:center}
+#Record .SubTitle{margin:0 0 1em}
+.Tip{font-size:1.1rem}
+#Note{background-color:#373737;color:#fff;padding:4%;line-height:1.8}
+#Note h4{text-align:center;font-size:2.5rem}
+.ActivityRow{margin:8px 0;line-height:1.8;font-size:1.5rem}
+.ActivityRow strong{color:#e4007f}
+.ActivityRow a{color:#e91e63;text-decoration:underline}
+.ActivityRow ol li ol li{list-style-type:disc}
+.ActivityRow ol li{list-style-type:disc}
+.GameBlock{position:relative}
+.GameBlock{background:url(../images/game.png) no-repeat;width:980px;height:464px;background-size:100%}
+.GameSlot.PlayOn{background:url(../images/game.gif) no-repeat;width:980px;height:464px;background-size:100%}
+.GamePlay{background:url(../images/btn_game.png) no-repeat;width:980px;height:464px;background-size:100%;position:absolute;top:0;left:0}
+.GamePlay.PlayOn{background:url(../images/btn_game_hover.png) no-repeat;width:980px;height:464px;background-size:100%;position:absolute;top:0;left:0}
+.GamePlay.Hit{background:url(../images/btn_game.png) no-repeat;width:980px;height:464px;background-size:100%;position:absolute;top:0;left:0}
+.Border{background-color:#fff5dd;border-radius:20px;padding:3%;margin-bottom:1%}
+.Table th{background-color:#5e5e5e;color:#fff;text-align:center;padding:1% 0;border-bottom:1px solid #fff;border-left:1px solid #fff;font-size:1rem}
+.Table td{padding:1% .5%;border-bottom:1px solid #fff;border-left:1px solid #fff;background-color:#d5d5d5;color:#000}
+.Table{width:100%;text-align:center;font-size:1rem;color:#fff}
+.Table td:last-child,.Table th:last-child{border-right:1px solid #fff}
+.PageBar{padding:20px;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.PageBar a{margin:0 1px;text-decoration:none;border:1px solid #666;color:#666;padding:1%}
+.PageBar a:hover{text-decoration:none}
+.PageBar a.On,.PageBar a.On:hover{font-weight:700;text-decoration:none;color:#666;border:transparent 1px solid}
+@media screen and (max-width:768px){
+img{width:100%;height:auto}
+body{background-size:200%}
+.Wrapper{width:100%}
+.BtnBack{width:10%;height:0;line-height:9vmin;padding-bottom:16%;left:5px}
+h1{width:100%;background-size:100%;height:0;padding-bottom:45%;padding-top:1%;background-position:0 0}
+.Container{margin-top:-8vmin}
+.GiftList{padding:8% 5%}
+.idol{width:13vmin;height:27vmin;left:3vmin;top:19vmin}
+.flip{font-size:9vmin;width:70%;border-radius:4vmin;border:3px solid #fff}
+.Btn{font-size:9vmin;width:70%;border-radius:4vmin;border:3px solid #fff}
+.GiftActivity{padding:0 5% 5%}
+.GiftName .SubTitle{font-size:4vmin;margin:0 0 3vmin}
+.GiftImg{margin-bottom:3vmin}
+.Btn{font-size:5vmin}
+.ButtnBar ul li i{display:none}
+.ButtnBar ul li{width:50%}
+.ButtnBar ul li a{width:100%;height:0;padding-bottom:34%}
+.GiftName h3{font-size:7vmin}
+.GiftFlex{flex-wrap:wrap;flex-direction:column}
+.GiftBorder{padding:5%}
+#Record .GiftBorder{padding:10% 5%}
+.GiftName{margin:auto;width:100%;text-align:center}
+.LinkGo a{width:80%;height:0;padding:0 0 11%;margin:auto}
+.ActivityRow .BtnGo{padding-bottom:36%}
+.flip:before{width:10vmin;left:-12vmin;top:4vmin}
+.flip:after{width:10vmin;right:-12vmin;top:4vmin}
+.flip{width:50vmin;font-size:7vmin}
+.GiftTitle{width:70%;height:0;padding-bottom:10%;top:-3vmin}
+.ButtnBar,.GiftItem{margin-bottom:8vmin}
+.BtnWinner{width:80%;height:0;padding-bottom:12%}
+.BtnBackGame{width:80%;height:0;padding-bottom:18%}
+#Record .GiftTitle{background:url(../images/h3_05.png) no-repeat;background-size:100%}
+.GameBlock,.GamePlay,.GamePlay.Hit,.GamePlay.PlayOn,.GameSlot.PlayOn{width:100%;height:0;padding-bottom:50%}
+.GameList li{border-radius:15px;width:43.7%;margin:3% 1% 3%}
+.GameList li .GiftImg img{border-radius:15px 15px 0 0}
+#Gift01 .GiftTitle{height:0;padding-bottom:12%;margin-right:17%}
+}

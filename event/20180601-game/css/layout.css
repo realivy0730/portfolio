@@ -1,0 +1,84 @@
+@charset "utf-8";
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:"微軟正黑體","LiHei Pro",Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#424242;position:relative}
+a:focus{outline:0}
+a{text-decoration:none;color:#000}
+a:hover{text-decoration:none;color:#000}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h6,p{margin:0;padding:0}
+::-webkit-input-placeholder{color:#e0e0e0}
+::-moz-placeholder{color:#e0e0e0}
+:-ms-input-placeholder{color:#e0e0e0}
+:-moz-placeholder{color:#e0e0e0}
+#Home{background:url(../images/bg.jpg) repeat-x,url(../images/LightBg.png) no-repeat bottom center;background-color:#669934;background-size:auto,140%}
+#Game{background:url(../images/GameBg.png) repeat-x,url(../images/LightBg.png) no-repeat bottom center;background-color:#669934;background-size:auto,220%}
+#confetti{z-index:-1;position:fixed;top:0;left:0;width:100%;height:100%}
+#Game #confetti{opacity:0}
+.MainLink{width:100%;background-size:100%;margin:auto;position:relative}
+.MainLink .MainBg{background:url(../images/Country.png) no-repeat top center;width:100%;min-height:740px;margin:auto}
+.MainLink a{text-indent:-99999px;margin:auto;background:url(../images/LinkGo.png) no-repeat;display:block;position:absolute;left:calc(50% - 30px);top:calc(50% - 10px);width:58px;height:58px}
+.heartbeat-play{-webkit-animation-duration:1.4s;animation-duration:1.4s;-webkit-animation-name:heartbeat-play;animation-name:heartbeat-play;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}
+@-webkit-keyframes heartbeat-play{
+0%{-webkit-transform:scale(1);transform:scale(1);filter:brightness(120%)}
+40%{-webkit-transform:scale(.95);transform:scale(.95);filter:brightness(100%)}
+60%{-webkit-transform:scale(1);transform:scale(1);filter:brightness(120%)}
+80%{-webkit-transform:scale(.95);transform:scale(.95);filter:brightness(100%)}
+100%{-webkit-transform:scale(1);transform:scale(1);filter:brightness(120%)}
+}
+@keyframes heartbeat-play{
+0%{-webkit-transform:scale(1);transform:scale(1);filter:brightness(120%)}
+40%{-webkit-transform:scale(.95);transform:scale(.95);filter:brightness(100%)}
+60%{-webkit-transform:scale(1);transform:scale(1);filter:brightness(120%)}
+80%{-webkit-transform:scale(.95);transform:scale(.95);filter:brightness(100%)}
+100%{-webkit-transform:scale(1);transform:scale(1);filter:brightness(120%)}
+}
+.throwing-snow-game{position:relative;height:100vh;overflow:hidden}
+.tsg-character{position:relative;width:320px;height:125px;margin:auto;top:120px}
+.door{display:block;position:absolute;margin:auto;width:320px;height:125px;background:url(../images/Door.png) no-repeat;background-size:100%}
+.prevent{background-image:url(../images/prevent.png);background-position:0 0;width:120px;height:167px;position:absolute;right:0;top:0;z-index:2;background-size:100%}
+.preventMove{transform:translateX(-50%);-webkit-animation:work 2s ease-in-out infinite;animation:work 2s ease-in-out infinite}
+.SomeoneSay{background:url(../images/SomeoneSay.png) no-repeat bottom center;background-size:90%;position:absolute;left:calc(50% - 184px);bottom:80px;width:100%;max-width:400px;z-index:3;height:0;padding-bottom:36%}
+@-webkit-keyframes work{
+0%{left:0}
+25%{left:50%}
+50%{left:100%}
+75%{left:50%}
+100%{left:0}
+}
+.preventMove.hit{animation:inherit;-webkit-animation:inherit}
+@-webkit-keyframes animatedBackground{
+0%{background-position:0 0}
+100%{background-position:-1080px 0}
+}
+@keyframes animatedBackground{
+0%{background-position:0 0}
+100%{background-position:-1080px 0}
+}
+.tsg-ball{position:absolute;top:calc(100% - 250px);left:calc(50% - 43px);width:90px;height:90px;background:url(../images/football.png) no-repeat center top/100% auto;animation:ballAni .5s linear infinite alternate;z-index:4}
+.tsg-ball:before{content:"";width:30px;height:70px;background-size:60%;left:calc(50% - 15px);position:absolute;background:url(../images/Arrowtop.png) no-repeat center top/100% auto;top:calc(50% - 107px)}
+.tsg-ball.hold{animation:none}
+.tsg-ball.broke:before,.tsg-ball.hold:before{display:none}
+@keyframes ballAni{
+0%{transform:translateY(-20px)}
+100%{transform:translateY(0)}
+}
+.Lightbox{display:none}
+.LightboxOverlay{background:rgba(0,0,0,.75);position:fixed;left:0;right:0;top:0;bottom:0;z-index:100}
+.LightboxWrap{position:fixed;left:0;top:calc(50% - 39%);box-sizing:border-box;z-index:21;max-width:320px;z-index:102;right:0;margin:auto}
+.BtnClose{position:absolute;right:1%;top:1%}
+.BtnClose a{background:url(../images/BtnClose.png);display:block;width:40px;height:40px;background-size:100%;text-indent:-99999px}
+.LightboxContent{background:url(../images/lightbox.png);width:100%;height:0;background-size:cover;padding-bottom:156%}
+#Submit{width:60px;height:45px;vertical-align:middle}
+.PWinput{border:0;font:30px Microsoft JhengHei;height:37px;width:63%;color:#3f3f3f;padding:5px;vertical-align:middle;background:0 0;margin:5px}
+.Pwform{padding:134% 0 0 3%}
+.inputbox{background:url(../images/inputbar.png) no-repeat;width:260px;height:63px;margin:auto;background-size:100%}
+#Game #confetti.gameshow{opacity:1;z-index:101}

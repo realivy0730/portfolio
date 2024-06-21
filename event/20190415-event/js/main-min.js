@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".BtnGo a").click(function(){$(this).parents(".GameBlock").toggleClass("active")}),$(".BtnClose a").click(function(){$(this).parents(".Lightbox").hide()})});

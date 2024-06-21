@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{margin:0;}
+body{font-size:94%;line-height: 1.8; font-family:"Noto Sans TC","微軟正黑體", 'Libre Baskerville','Century Gothic', Arial ; color: #333; position: relative; background-color: #fff}
+a:focus{outline:0;}
+a{text-decoration:none; color: #fff;}
+a:hover{text-decoration:none; color: #ccc;}
+img{border: 0 none; line-height:0; display: block;}
+form {margin:0; padding:0;}
+ul, ul li {margin: 0;padding: 0;  list-style-type: none;}
+dl, dt, dd {margin: 0;padding: 0;}
+dl {height: 1%;}
+button{border:0 none; cursor:pointer;padding: 0;margin: 0;background: transparent;}
+.clearfix:before,.clearfix:after {content: "";display: table;height: 0;overflow: hidden;}
+.clearfix:after {clear: both;}
+.clearfix { zoom: 1;}
+h1,h2,h3,p{margin:0;padding: 0;}
+/**{-webkit-transition: all .3s cubic-bezier(.215,.61,.355,1);transition: all .3s cubic-bezier(.215,.61,.355,1);}*/
+.BigFont{ font-size: 1.5rem; font-weight: bold; }
+.colorbrown{ color: #bd9743; }
+.lineheight{line-height: 1.3;margin-top: 3%;}
+/*-------------------------------------Globe------------------------------------------------*/
+
+.Wrapper{max-width: 1900px;position: relative;margin:auto;}
+.Header .Wrapper{z-index: 1;}
+.Header{position: fixed;left: 0;right: 0;z-index: 200; top: 0;padding: 20px 0;transform: translateY(-100%);
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;}
+/*.Header:after{content: "";background: url(../images/TopBg.png) repeat-x;animation: bg-move 15s ease 0s infinite;height: 390px;position: absolute;left: 0;right: 0;top:-3px;z-index: 0;}*/
+.open{-webkit-transform: translateX(0);transform: translateX(0);}
+.fixedBar{position: fixed;-webkit-transform: translateX(0);transform: translateX(0);position: fixed; left: 0; right: 0; z-index: 101;height: 100px; background-color: #fff;box-shadow:0 0 10px rgb(0 0 0 / 6%);padding:10px 0; height: auto;}
+
+
+.AboutSlider:after{content: "";background: url(../images/TopBg.png) repeat-x;animation: bg-move 10s ease 0s infinite;height: 280px;position: absolute;left: 0;right: 0;top: 80px;z-index: 0;transform: scaleY(-1);}
+.LogoBlock{padding:0;-webkit-transition: all .3s cubic-bezier(.215,.61,.355,1);transition: all .3s cubic-bezier(.215,.61,.355,1);transform: translateY(-100%);}
+.LogoBlock .Logo{ position: absolute;left:25px;top:11px;-webkit-transition: all .3s cubic-bezier(.215,.61,.355,1);transition: all .3s cubic-bezier(.215,.61,.355,1);height: auto;}
+.LogoBlock .Logo a{ text-indent: -9999px;background:url(../images/my.gif) no-repeat; display: block; width: 178px; height: 29px;background-size: 100%;}
+
+.LogoBlock .ShareFb ,.InnerPage .LogoBlock .ShareFb{ width: 35px; height: 35px;position: absolute;top: 28px; right:38px; }
+.LogoBlock .ShareFb a{ text-indent: -9999px;background:url(../images/LogoFb.png) no-repeat; display: block; width: 35px; height: 35px;background-size: 100%;}
+.Nav{margin-left: 20%;-webkit-transition: all .3s cubic-bezier(.215,.61,.355,1);transition: all .3s cubic-bezier(.215,.61,.355,1); }
+.Nav ul {display: flex;justify-content: right;}
+.Nav ul li{text-align: center; position: relative;width:14%;}
+.Nav ul li:after{content:"";height: 19px; width: 1px; background-color: #c3c3c3;position: absolute; top:30%;left: 0;}
+.Nav ul li:first-child:after{ display: none; }
+.Nav ul li span.BigNav{display: block;font-size: 15px;color:#000;font-weight: bold;}
+.Nav ul li span.SmallNav{display: block;font-size: 12px;color:#666;}
+.Nav ul li a:hover span{ color: #c99f44; }
+.DropToggleBox{position: absolute;top: 20px; right: 20px; display: none;}
+.hamburger{width:24px;height:3px;margin-top:4px;position:relative;float:left;background:#e1bf7f;-moz-transition:all .3s;-o-transition:all .3s;-webkit-transition:all .3s;transition:all .3s;}
+.hamburgerBox{width:24px;height:24px}
+.hamburgerBox .top-bar{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);width:24px;transform-origin:10% 10%}
+.hamburgerBox .middle-bar{opacity:1}
+.hamburgerBox .bottom-bar{-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);width:24px;transform-origin:10% 90%}
+.DropToggleOpen .hamburgerBox .top-bar{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);width:26px}
+.DropToggleOpen .hamburgerBox .middle-bar{opacity:0}
+.DropToggleOpen .hamburgerBox .bottom-bar{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);width:26px}
+
+/*.TitleBlock h3{color: transparent;-webkit-text-stroke: 1px #000;font-size: 5rem; line-height: 1;font-family: mulish,sans-serif;}*/
+.SmallTitle {position: absolute;left: -6px;color: transparent;font-size: 150px;font-weight: 900;opacity: .1;line-height: 1.4;max-width: 100%;overflow: hidden;white-space: nowrap;-webkit-text-stroke: 1px #000;-webkit-user-select: none;bottom: -36px;box-sizing: border-box;}
+
+.TitleBlock h3{position: relative;font-size: 3rem;text-align: left;line-height: 1.4;margin-bottom: 26px;font-family: Poppins,sans-serif;}
+.TitleBlock .IntroTitle{font-weight: bold;line-height: 1; font-size: 5rem;}
+.AboutBlock .Title{text-align: left;font-size: 1.1rem;color: #000;font-weight: bold;}
+
+.Block{border-bottom: 1px solid #b0bcc5;padding-bottom: 3%;margin-bottom: 3%;}
+.Block li{margin-left: 30px; list-style-type: disc;}
+.Block03{border-bottom: 0 none;}
+
+#Intro .TitleBlock{margin-bottom: 36px;text-align: left;}
+#Intro .TitleBlock h3{color: transparent;-webkit-text-stroke: 1px #000;font-size: 5rem; line-height: 1;font-family: Poppins,sans-serif;}
+#Intro .Bg{ background:url(../images/BgIntro.jpg) no-repeat fixed center bottom; background-size:cover; min-height: 790px;}
+#Intro .IntroArea{    width: 26%;padding: 8% 0 0 0;margin-left: 45%;color: #1c1c1c;}
+.contactme ul {display: flex;margin-top: 38px;justify-content: left;align-items: center;}
+.contactme ul li{margin-right: 8px;}
+.contactme ul li a{width: 50px;height:50px;background-color: #979797;border-radius: 100px;display: flex;justify-content: center;align-items: center;font-size: 1.3rem;}
+
+#portfolio{background-color:#f7f3ee ;}
+
+#Skill{padding-left:revert ;padding-right: revert;}
+#Skill .TitleBlock{padding-left: 3%; padding-right: 3%;}
+/* .SkillBlock ul {display: flex;}
+.SkillBlock ul li{padding: 5%;width:33%;}
+.SkillBlock ul li .Title{font-weight: bold; font-size: 1.1rem;color: #000;text-align: center;}
+.SkillBlock ul li .Icon{max-width: 60px;margin: auto;} */
+.tool-slider .swiper-slide{ background-color: #fff; border-radius: 5px;padding: 3%; border: 1px solid #eee;}
+.tool-slider .Title{text-align: left;font-size: 1.1rem;color: #000;font-weight: bold;}
+.tool-slider .article ul{min-height: 170px;}
+.tool-slider .article ul > li{list-style: disc;margin-left: 20px;padding-left: 10px;}
+.tool-slider ol{ border-top: 1px solid #ccc;padding: 20px 0 0 0; margin: 20px 0 0 0;display: flex;}
+.tool-slider ol li {margin-right: 8px;}
+.tool-slider ol li img{width: 25px;}
+
+
+
+.WebTitle{display:block;min-height: 600px;}
+#AboutPage .WebTitle{background:url(../images/AboutSplash01.jpg) no-repeat fixed center top;background-size:100%}
+#About .AboutBlock{display: flex;margin-bottom: 10%;}
+#About .Area{  min-height: 600px;position: relative;padding:0 0 0 0;}
+#About .AboutSlider{position: relative;padding-top: 60px;margin-bottom: 50px;}
+#About .AboutSlider .Wrapper{ width: 1000px; margin:auto; }
+.AboutLeft img{max-width: 400px;}
+.AboutRight{margin-left: 100px;}
+
+.Section{ padding: 8% 3% 2.5%}
+.PortfolioList ul{display: flex;flex-wrap: wrap;}
+.PortfolioList ul li{width: 30%;position: relative;overflow: hidden;margin: 1.5%;border-radius: 24px;    }
+
+.img_cover{padding: 5%;  background-color: rgba(215, 207, 191,.8);position: absolute;transform: translate(0, -50%);-webkit-transition: all .3s;transition: all .3s;transition-delay: .3s;left: 0; right: 0}
+.img_cover .title{margin-bottom: 15px;text-align: center;font-size: 1.2rem;position: relative;z-index: 5;transition: all .3s ease;font-weight: bold;}
+.PortfolioList ul li:hover .img_cover{transform: translate(0, -100%);}
+.PortfolioList ul li img{width:100%;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}
+.PortfolioList ul li:hover img{-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-o-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
+.PortfolioList ul li .FnCat{text-align: center;color: #aeb7c1;font-size: .9rem;}
+.PortfolioList ul li a{color: #000;display: block;overflow: hidden;}
+.PortfolioList ul li h4{ text-align: center;margin: 0;font-size: 1.2rem;position: relative;z-index: 5;transition: all .3s ease;margin-top: 3%;font-weight: bold;}
+
+#Expertise{background-color:#f7f3ee ;}
+#Expertise .InnerBlock ul{position: relative;}
+#Expertise .InnerBlock ul:before{content: "";height: calc(100% - 2em);margin-top: 1em;position: absolute;top: 0;width: 0.125rem;box-sizing: border-box;background-color: rgba(228,228,231.8);top: 0;width: 0.125rem;left: .7rem}
+.Dot{width:1.5rem;height: 1.5rem;border-radius: 9999px;width: 1rem;height: 1rem;border-radius: 9999px;border: 4px solid #ddd;position: absolute;left: 0;background: #fff; transition-property: all;transition-timing-function: cubic-bezier(.4,0,.2,1);transition-duration: 150ms;}
+.DotAni{width:1.5rem;height: 1.5rem;border-radius: 9999px;width: 1rem;height: 1rem;border-radius: 9999px;border: 4px solid #d79724;position: absolute;left: 0;background: #fff; transition-property: all;transition-timing-function: cubic-bezier(.4,0,.2,1);transition-duration: 150ms;display: none;
+-webkit-animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+}
+
+@-webkit-keyframes ping {
+	100%,75% {
+		transform: scale(1.8);
+		opacity: 0
+	}
+}
+
+@keyframes ping {
+	100%,75% {
+		transform: scale(1.8);
+		opacity: 0
+	}
+}
+#Expertise .InnerBlock ul > li{display: flex; margin-bottom: 3%;}
+#Expertise .InnerBlock ul li .Icon{flex:10%;}
+#Expertise .InnerBlock ul li .Year{flex:20%;color: #999;}
+#Expertise .InnerBlock ul li .Descript{flex: 70%;color: #999;}
+#Expertise .InnerBlock ul li .Big{font-weight: bold;font-size: 1.2rem;}
+#Expertise .InnerBlock ul li .SubBig{font-weight: bold;}
+#Expertise .InnerBlock ul li:hover .Dot {border: 4px solid #d79724;}
+#Expertise .InnerBlock ul li:hover .DotAni{display: block;}
+#Expertise .InnerBlock ul li:hover .Big{color:#000;}
+#Expertise .InnerBlock ul li:hover .SubBig{color:#000;}
+
+#Expertise .InnerBlock ul li ol li{list-style: decimal;}
+#Expertise .InnerBlock ul li:hover ol li{color:#000;}
+
+#Footer{ padding: 2em 0; color:#979797; text-align: center; border-top: 1px solid #eee;font-size: 14px;}
+#Footer .contactme ul{justify-content: center;margin-bottom: 8px;margin-top: revert;}
+
+.LinkBar{padding: 3% 0;text-align: center;}
+.LinkBar a{color: #fff;display: inline-block;border-radius: 50px;padding: 2px 29px;font-size: 14px;background-color: #bd9743;margin: auto; transition: all .3s;border: 1px solid transparent;}
+.LinkBar a:hover{ background-color: #fff; color: #bd9743; border: 1px solid #bd9743;}
+
+.NavBg svg{overflow: hidden;vertical-align: middle;display: none}
+.NavBg svg path{-webkit-animation: vlt_menu_svg_path 7s forwards;animation: vlt_menu_svg_path 7s forwards;}
+@-webkit-keyframes vlt_menu_svg_path{
+		0%{stroke-dasharray:5000.2841796875;stroke-dashoffset:5000.2841796875}
+		100%{stroke-dasharray:5000.2841796875;stroke-dashoffset:0}
+	}
+	@keyframes vlt_menu_svg_path{
+		0%{stroke-dasharray:5000.2841796875;stroke-dashoffset:5000.2841796875}
+		100%{stroke-dasharray:5000.2841796875;stroke-dashoffset:0}
+	}
+
+@media screen and (max-width:1440px){
+	#Intro .IntroArea{width: 80%;padding:15% 5% 0 28%; margin-left: 15%; color: #1c1c1c; box-sizing: border-box;}
+
+}
+
+@media screen and (max-width:820px){
+	.Wrapper{width: 100%;margin: auto;}
+	body{font-size:100%;}
+	.NavBg{position: absolute;z-index: -1;top: 50%;left: 50%;transform: translate3d(-50%,-50%,0);color: #746c6c;font-size: 2rem;}
+	.NavBg svg{display: block;-webkit-transform: translate3d(0,-50%,0) scale(.75);transform: translate3d(0,-50%,0) scale(.75);}
+
+	.Header{background-color: #000;padding: 1% 0;}
+	.open2{bottom:0;}
+	.LogoBlock .Logo a{background-image: url(../images/my_w.gif);}
+	
+	.Nav ul{flex-direction: column;}
+	.Nav ul li{display: block;width:100%;}
+	.Nav ul li a{display: block;padding: 3% 3%;width: 100%}
+	.DropToggleBox{display: block;}
+	.hamburger{ background-color: #fff; }
+	.DropToggleOpen .Nav{ display: block }
+	.Nav ul li:after{display: none;}
+	/*.Nav{display: none;}*/
+	.Nav.Activity{margin: 0;display: block;height: 100vh;}
+	.Header .Wrapper{height: 100%;}
+	.Nav ul li span.BigNav{color: #fff;font-size: 1.5rem;}
+	.LogoBlock{transform: inherit;height: 60px;}
+	.Nav{margin: auto;display: none;}
+	.Activity .Nav{ display: block;}
+	#Intro .Bg{ background:url(../images/BgIntro_m.jpg) no-repeat center bottom; background-size:cover; height: 100vh;}
+	#Intro .IntroArea{width: 100%;margin: 0;padding: 33% 17%;text-align: center;}
+	#Intro .TitleBlock h3{text-align: center;margin-bottom: 1%;margin-top: 28%;font-size: 3rem;}
+	#Intro .TitleBlock{text-align: center;}
+	.Intro{margin:0}
+	.TitleBlock .IntroTitle{font-size: 5rem;}
+	#About .AboutBlock{flex-direction: column; padding: 5%;margin-bottom: 0;}
+	#About .Area{min-height: 100vh;}
+	.AboutLeft img{max-width: 100%}
+	.AboutRight{margin-left: 0;}
+
+	#Skill .TitleBlock{padding-left: 16%; padding-right: 16%;}
+
+	.ExpertiseBlock{padding: 8%;}
+
+	#Footer{padding: 8%}
+	#AboutPage .WebTitle{background-size: 260%;min-height: inherit;height: 0;padding-bottom: 100%;}
+	.Section{padding: 3%;}
+	.SmallTitle{font-size: 6rem;}
+	.PortfolioList ul li{width:47%;}
+	.AboutLeft{margin-bottom: 8px;}
+
+}
+@media screen and (max-width:600px){
+	.PortfolioList ul li{width:100%;margin-bottom: 15px;}
+	.NavBg svg{display: block;-webkit-transform: translate3d(0,-50%,0) scale(.4);transform: translate3d(0,-50%,0) scale(.4);}
+	#Skill .TitleBlock{padding-left: 3%; padding-right: 3%;padding-top: 8%;}
+	#Skill{padding-bottom: 16%;}
+	#Expertise .InnerBlock ul li .Icon{flex: 12%;}
+	#Expertise .InnerBlock ul li .Year{margin-left: 11%;flex: 0 0 100%;}
+	#Expertise .InnerBlock ul li .Descript{margin-left: 11%;flex: 0 0 100%;}
+	.ExpertiseBlock{padding: 8% 0 0;}
+	#portfolio{padding-top: 8%;}
+	#Footer{padding: 3%;}
+	#Expertise .InnerBlock ul > li{flex-flow: column;}
+}
+
+	

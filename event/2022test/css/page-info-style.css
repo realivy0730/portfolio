@@ -1,0 +1,143 @@
+@charset "utf-8";
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:'Noto Sans TC',"微軟正黑體",'Century Gothic';color:#fff;position:relative;margin:auto;overflow-x:hidden;background:#2b2a34 url(../images/bg.png)no-repeat fixed center top;background-size:100%;}
+a:focus{outline:0}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h4,h6,p{margin:0;padding:0}
+.ColorImg{color:#ffe2db}
+ul li img{width:95%;margin:1% auto;height:auto}
+
+.QrCodeImg{width:30%;height:auto;margin:inherit}
+.Top{display:none!important}
+.Wrapper{position:relative;width:1000px;margin:auto}
+.Header .Wrapper{position:relative;z-index:7;width:1250px;margin:auto}
+
+.BtnBack a{background:url(../images/info/BtnBack.png) no-repeat;text-indent:-9999px;margin:auto;position:absolute;z-index:1;background-size:100%;width:10%;height:25%;background-size:100%;right:5%;top:20px;z-index:10;}
+h1{background:url(../images/info/title_info.png) no-repeat center;width:100%;height:0;text-indent:-9999px;margin:auto;position:relative;z-index:1;background-size:100%;max-width:1060px;animation-iteration-count:infinite;padding: 4% 0 46%;box-sizing: border-box;}
+.ball1{background:url(../images/info/ball1.png) no-repeat;background-size: 100%;}
+.ball2{background:url(../images/info/ball2.png) no-repeat;background-size: 100%}
+.same{position:absolute;left: 0;right: 0; bottom: 0; top: 0;}
+.Img img{max-width:978px;height:auto;margin:auto}
+.Box{background-color: #2b2a34;padding:0 5% 5%;box-sizing:border-box;border-radius:30px;margin:auto;position:relative;border: 3px solid #c7fbfb;box-shadow:inset 0 2px 3px 2px rgb(0 102 102 / 80%), 0 0 12px 6px rgb(51 255 255), inset 0px 1px 16px 8px rgb(51 255 255);font-size: 1.2rem;line-height: 2;}
+.Box h3{text-align:center;font-size:48px;font-weight:700;color:#fff;max-width:950px;margin:auto;height:95px;line-height:90px;position:relative;z-index:4;top:-45px;border: 3px solid #c7fbfb;box-shadow:inset 0 2px 3px 2px rgb(0 102 102 / 80%), 0 0 12px 6px rgb(51 255 255), inset 0px 1px 16px 8px rgb(51 255 255);border-radius: 50px;
+  text-shadow: 2px 5px 7px rgba(0, 3, 199, 0.9);
+  background-image: -moz-linear-gradient( 90deg, rgb(18,214,223) 0%, rgb(247,15,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(18,214,223) 0%, rgb(247,15,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(18,214,223) 0%, rgb(247,15,255) 100%);
+}
+.Box h3:before{content:"";background:url(../images/info/h3_before_info_01.png) no-repeat top center;background-size:100%;width:120px;height:100px;position:absolute;left:-40px;top:-30px;z-index:-1}
+.Box h3:after{content:"";background:url(../images/info/h3_after_info_01.png) no-repeat top center;background-size:100%;width:105px;height:95px;position:absolute;right:-40px;bottom:-30px;z-index:-1}
+.Box .infobox{z-index:2;position:relative}
+.MAINTAIN{position:relative;width:1200px;margin:auto;z-index:1}
+.MAINTAIN h5.BTN_STYLE01{display:inline-block;text-align:center;border-radius:50px;background-color:#cd0000;margin:3% 15px 30px 0;width: 290px;}
+.MAINTAIN h5.BTN_STYLE01 a{display:block;color:#fff;font-size: 1.8rem;text-decoration:none;}
+.MAINTAIN h5.BTN_STYLE01 a:after{content:url(../images/info/hand.png?20210503001)}
+.N1{border-radius:30px;padding:3% 2%;margin-bottom: 5%;}
+.MAINTAIN li a{color:#ff0;text-decoration:underline}
+.MAINTAIN table{width:100%;text-align:center;word-break:break-all;border:1px solid #fff;font-size:20px}
+.MAINTAIN table td a{color:#ff0;text-decoration:underline}
+.MAINTAIN table tr td:last-child{padding-left:10px;text-align:center}
+.MAINTAIN table th{background-color:transparent;color:#fff;text-align:center;padding-left:0;border-bottom:1px solid #fff;border-right:1px solid #fff}
+.MAINTAIN table th:last-child{border-right:0 none}
+.MAINTAIN table td{background-color:transparent;border-bottom:1px solid #fff;border-right:1px solid #fff}
+.MAINTAIN table tr td:last-child{border-right:0 none}
+.MAINTAIN table tr:last-child td{border-bottom:0 none}
+.MAINTAIN ol li ul li{list-style:square;margin-left:30px}
+#Table1,#Table2{width:40%}
+.NOTE{width:100%;background-color:#373737;position:relative;z-index:4;padding:3% 0 5%;}
+.NOTE h4{color:#fff799;text-align:center;padding-top:10px;margin:2% 0;font-size: 3rem;}
+.NOTE ol{width:1000px;height:auto;text-align:left;margin:0 auto}
+.NOTE .Rule{width:1000px;height:auto;text-align:left;margin:2% auto;color:#fff;font:15px/25px "微軟正黑體"}
+.NOTE li{color: #fff; font-size: 1.2rem;margin-bottom: 2%;}
+.share-bar{width:950px!important;z-index:99}
+.WEB{display:block;width:100%}
+.footerbox{width:950px;margin:0 auto}
+.LiStyle li{list-style:upper-alpha;margin-left:30px}
+.Table th{padding:1%}
+.Table td span{color:#0900ff;font-size:14px;line-height:1}
+.MAINTAIN ol li .ItemClass li{list-style:decimal}
+.Withe a{position:relative}
+.Withe a:after{background:#fff;content:"";height:225px;left:-265px;opacity:.2;position:absolute;top:-50px;-webkit-transform:rotate(35deg);transform:rotate(35deg);-webkit-transition:all 550ms cubic-bezier(.19,1,.22,1);transition:all 550ms cubic-bezier(.19,1,.22,1);width:50px;z-index:1}
+.Layer{font-size:2rem;background:#000;position:absolute;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;align-items:center;opacity:0}
+.Withe:hover .Layer{opacity:1}
+.Withe a:hover:after{left:140%;-webkit-transition:all 550ms cubic-bezier(.19,1,.22,1);transition:all 550ms cubic-bezier(.19,1,.22,1)}
+.BtnFb img{width:309px;height:131px}
+.BtnGo{background:url(../images/BtnGo.png?20210503001) no-repeat;width:100%;height:0;text-indent:-9999px;display:block;background-size:100%;padding-bottom:10%;max-width:292px}
+.ButtnBar{margin-bottom:20px}
+.go_bt{-webkit-transition:all .1s ease;-moz-transition:all .1s ease;-ms-transition:all .1s ease;-o-transition:all .1s ease;transition:all .1s ease}
+.go_bt:hover{-webkit-transform:translateY(-6px);-moz-transform:translateY(-6px);-ms-transform:translateY(-6px);-o-transform:translateY(-6px);transform:translateY(-6px);filter:brightness(105%)}
+@media screen and (max-width:1440px){
+.Bgbox{background-size:auto}
+.Header .Wrapper{width:100%}
+h1{padding-bottom:37%}
+}
+@media screen and (max-width:768px){
+body{background-position: 0 14vmin;}
+.Header{padding-top:0}
+h1{max-width:100%;padding-bottom:59%}
+.Wrapper{width:100%}
+.BtnBack a{font-size:1rem;right:12vmin;top:5%}
+.Img img{width:100%;height:auto}
+.ROUTINE_PAGE{padding:0 3% 3%}
+.MAINTAIN{height:auto;margin:0 auto;width:100%}
+.N1{margin-bottom: 10%;}
+.MAINTAIN>.N1 h6{width:65px;height:65px;border-radius:50%;text-align:center;font:bold 40px/65px "Arial, Helvetica,sans-serif";position:absolute;left:-35px;top:-10px}
+.MAINTAIN h4{font:bold 2em/1em "微軟正黑體";margin-bottom:10px}
+.MAINTAIN h4 span{font:bold .6em/1em "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE01{display:inline-block;width:80%;text-align:center;border-radius:50px;margin:10px 15px 10px 0;white-space:nowrap;}
+.MAINTAIN h5.BTN_STYLE01 a{display:block;padding-top:5px;font-size: 4vmin;}
+.MAINTAIN h5.BTN_STYLE01 a:after{vertical-align:middle}
+.MAINTAIN p{font-size: 3vmin;}
+.MAINTAIN p img{width:100%;height:auto}
+.MAINTAIN p span{font:bold 1em/2em "微軟正黑體"}
+.MAINTAIN p a{text-decoration:underline}
+
+.MAINTAIN li table{font-size:14px}
+.MAINTAIN li table.Table2{margin-left:-50px}
+.MAINTAIN .TABLE_BOX{text-align:center;margin-bottom:30px}
+.MAINTAIN .TABLE_BOX tr{font:.95em/1.2em "微軟正黑體"}
+.MAINTAIN .TABLE_BOX td{font:.95em/1.2em "微軟正黑體";background-color:#fff5dd;vertical-align:middle;padding:5px}
+.MAINTAIN .TABLE_BOX tr td:last-child{padding-left:10px;text-align:left}
+.MAINTAIN .TABLE_BOX tr:first-child td{background-color:#373737;color:#1f1c1d;text-align:center;padding-left:0}
+.MAINTAIN .T_CENTER tr td:last-child{padding-left:0;text-align:center}
+
+.NOTE h4{text-align:center;padding-top:10px;font-size: 5vmin;}
+.NOTE ol{width:88%;height:auto;text-align:justify;margin:0 auto;padding-left:5%}
+.NOTE .Rule{width:88%;height:auto;text-align:justify;margin:0 auto;padding-left:5%}
+.NOTE li{font-size:3vmin;}
+.share-bar{width:100%!important}
+.share-bar #rolltop{display:none}
+.WEB{display:block;width:100%}
+.FOOTER{width:100%;margin:0 auto;background:url(../images/footer-bg.jpg) repeat-x;overflow:hidden;background-size:cover}
+.footerbox{width:100%;margin:0 auto;text-align:center}
+.QrCodeImg{width:100%;height:auto}
+#Table1,#Table2{width:100%}
+.Bg{background-size:194%;height:59vmin}
+.scaleDraw-play,.scaleDraw-play span{height:59vmin}
+.infobox{margin-top:-3vmin;border-radius:10px}
+.MAINTAIN table{width:100%;font:.95em/1.2em "微軟正黑體"}
+.Box{border-radius:10px;font-size: 3vmin;box-shadow: inset 0 1px 2px 1px rgb(0 102 102 / 80%), 0 0 6px 3px rgb(51 255 255), inset 0px 1px 8px 4px rgb(51 255 255);}
+.Box h3{width:100%;font-size:5vmin;top:-7vmin;line-height:2;height:38px;box-shadow: inset 0 1px 2px 1px rgb(0 102 102 / 80%), 0 0 6px 3px rgb(51 255 255), inset 0px 1px 8px 4px rgb(51 255 255);}
+.Box h3:before{left:-9vmin;bottom:0;background-size:28%;width:100%;height:18vmin;background-position:left top}
+.Box h3:after{right:-9vmin;bottom:0;background-size:20%;width:100%;height:17vmin;background-position:right top}
+#info_line h3:before{left:-9vmin;bottom:0;background-size:29%;width:100%;height:18vmin;background-position:left top}
+#info_line h3:after{right:-9vmin;bottom:0;background-size:25%;width:100%;height:17vmin;background-position:right top}
+.Box .infobox{border-width:4px;border-radius:10px}
+.Box:before{border-radius:10px;left:5px;right:5px;bottom:5px;top:5px}
+.Box:after{border-radius:10px}
+}
+@media screen and (max-width:600px){
+.BtnFb img{width:100%;height:auto}
+.BtnGo{padding-bottom:33%}
+}

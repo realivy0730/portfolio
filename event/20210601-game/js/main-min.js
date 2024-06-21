@@ -1,0 +1,1 @@
+"use strict";$(".LinkGo a").click(function(){$(".GameBlock .GameSlot").addClass("PlayOn")}),$(".LinkGo a").click(function(){$(".GameBlock .GamePlay").addClass("PlayOn"),setTimeout(function(){$(".GameBlock .GamePlay").removeClass("PlayOn").addClass("Hit")},400),setTimeout(function(){$(".GameBlock .GamePlay").removeClass("Hit")},800)});

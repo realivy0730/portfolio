@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$('.FlyNav a[href^="#"]').on("click",function(t){t.preventDefault();var o=this.hash,e=$(o);$("html, body").stop().animate({scrollTop:e.offset().top-10},900,"swing")})});

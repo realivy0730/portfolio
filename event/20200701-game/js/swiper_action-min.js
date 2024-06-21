@@ -1,0 +1,1 @@
+"use strict";$(function(){new Swiper(".swiper-container_f",{slidesPerView:1,effect:"fade",fade:{crossFade:!0},spaceBetween:0,loop:!0,autoplay:3e3,autoplayDisableOnInteraction:!1,pagination:".swiper-pagination",paginationClickable:!0,nextButton:".swiper-button-next",prevButton:".swiper-button-prev"})});

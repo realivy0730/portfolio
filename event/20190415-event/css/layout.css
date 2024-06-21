@@ -1,0 +1,125 @@
+@charset "utf-8";
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:"微軟正黑體",'Century Gothic';color:#4b2e2c;position:relative;margin:auto;background:#f04 url(https://shopping.friday.tw/event/20190415-event/roulette/images/Bg.jpg) no-repeat center 45px}
+a:focus{outline:0}
+a{text-decoration:none;color:#333}
+a:hover{text-decoration:none;color:#000}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h4,p{margin:0;padding:0}
+.Wrapper{width:950px;margin:0 auto;position:relative}
+.Header{position:relative}
+.Header h1{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/h1.png) no-repeat;background-size:100%;width:800px;height:280px;text-indent:-9999px;position:relative;margin:auto;-webkit-animation-name:bounceIn;animation-name:bounceIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes bounceIn{
+20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}
+0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}
+40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}
+60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}
+80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}
+to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+}
+@keyframes bounceIn{
+20%,40%,60%,80%,from,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}
+0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}
+20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}
+40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}
+60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}
+80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}
+to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}
+}
+.BtnBack a{display:block;text-indent:-9999px;background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/BtnMain.png) no-repeat top center;width:120px;height:120px;background-size:100%}
+.GameBlock{position:relative;width:670px;height:670px;overflow:hidden;margin:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.BtnGo a{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/BtnGo.png) no-repeat;width:162px;height:162px;text-indent:-9999px;display:block;z-index:10;position:relative;background-size:100%}
+.GameItem{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/GameItem.png) no-repeat;position:absolute;left:0;right:0;top:0;bottom:0;background-size:100%}
+.GameItem2{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/GameItem.png) no-repeat;position:absolute;left:0;right:0;top:0;bottom:0;background-size:100%;display:none}
+.GameFrame{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/GameFrame.png) no-repeat;position:absolute;left:0;right:0;top:0;bottom:0;background-size:100%}
+.ButtnBar ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ButtnBar ul li{margin:2% 1%}
+.ButtnBar ul li a{width:410px;height:120px;text-indent:-9999px;display:block;-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease}
+.ButtnBar ul li a:hover{-webkit-transform:translateY(-6px);-ms-transform:translateY(-6px);transform:translateY(-6px)}
+.ButtnBar ul li:first-child a{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/BtnActivity.png) no-repeat;background-size:100%}
+.ButtnBar ul li:last-child a{background:url(https://shopping.friday.tw/event/20190415-event/roulette/images/BtnWinner.png) no-repeat;background-size:100%}
+.ActivityRow{margin:8px 0;text-align:justify;color:#fff;font-size:1.2rem;line-height:1.8}
+.ActivityRow a{color:#ff0;text-decoration:underline}
+.Table{width:100%;text-align:center;font-size:1rem}
+.Table th{background:#373737;color:#fff}
+.Table td{padding:1%;background-color:#fff5dd;color:#373737}
+.scaling{-webkit-animation:scaling .6s ease-out infinite;animation:scaling .6s ease-out infinite}
+.rotating{-webkit-animation:rotating 3s linear infinite;animation:rotating 3s linear infinite}
+.active .GameItem{opacity:0}
+.active .GameItem2.rotating{-webkit-animation:rotating 1s linear infinite;animation:rotating 1s linear infinite;display:block}
+.LightboxOverlay{background:rgba(0,0,0,.9);position:fixed;bottom:0;top:0;left:0;right:0;z-index:10}
+.LightboxWrap{width:900px;height:500px;position:fixed;z-index:11;left:0;right:0;bottom:0;top:0;margin:auto}
+.LightboxWrap:before{content:"";position:absolute;left:0;right:0;top:0;bottom:0;background-color:#fdf192;border-radius:20px;z-index:-1;-webkit-transform:rotate(2deg);-ms-transform:rotate(2deg);transform:rotate(2deg);-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.7);box-shadow:1px 1px 2px 0 rgba(0,0,0,.7)}
+.LightboxWrap:after{content:"";position:absolute;left:0;right:0;top:0;bottom:0;background-color:#fdf192;border-radius:20px;z-index:-1;-webkit-transform:rotate(-2deg);-ms-transform:rotate(-2deg);transform:rotate(-2deg);-webkit-box-shadow:1px 1px 2px 0 rgba(0,0,0,.7);box-shadow:1px 1px 2px 0 rgba(0,0,0,.7)}
+.Lightbox .BtnClose{background-color:#fff;border-radius:100%;width:40px;height:40px;position:absolute;right:-40px;top:-30px}
+.Lightbox .BtnClose a{width:30px;height:30px;display:block;background-size:100%;display:inline-block;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);-webkit-transform-origin:50%;-ms-transform-origin:50%;transform-origin:50%;padding:10%}
+.close::after,.close::before{content:'';position:absolute;height:5px;width:100%;top:50%;left:0;margin-top:-1px;background:#000}
+.close::before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
+.close::after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}
+.Lightbox .Content{padding:5%;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:100%;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}
+.Lightbox .Content:after{content:"";background:#fff;border-radius:20px;width:93%;height:90%;margin:auto;-webkit-transform:rotate(-2deg);-ms-transform:rotate(-2deg);transform:rotate(-2deg);position:absolute;border:10px solid #fdf191;left:0;right:0;top:0;bottom:0}
+.Lightbox .Title{font-size:4rem;line-height:1}
+.Lightbox .Wording{font-size:4rem;color:red}
+.Lightbox a{color:red}
+.Tip{font-size:1.5rem;margin:5px 0;line-height:1.3}
+.BtnShareLine{text-indent:-9999px;background:url(../images/BtnLine.png) no-repeat top center;width:168px;height:80px;background-size:100%;margin-right:5px;display:block}
+.BtnShareFb{text-indent:-9999px;background:url(../images/BtnFb.png) no-repeat top center;width:168px;height:80px;background-size:100%;display:block}
+.ButtonBar ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.ButtonBar ul li{margin:2% 1%}
+.Information{position:relative;z-index:10}
+.PageBar{padding:20px;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.PageBar a{margin:0 1px;text-decoration:none;border:1px solid #fff;color:#fff;padding:1%}
+.PageBar a:hover{text-decoration:none}
+.PageBar a.On,.PageBar a.On:hover{font-weight:700;text-decoration:none;color:#fff;border:transparent 1px solid}
+.Center{position:relative;background:#f04;min-height: 500px;}
+h4{font-size:1.5rem;text-align:center;color:#fff;padding:3% 0}
+@-webkit-keyframes rotating{
+from{-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}
+to{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes rotating{
+from{-ms-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}
+to{-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@-webkit-keyframes scaling{
+0%{-ms-transform:scale(.9);-webkit-transform:scale(.9);transform:scale(.9)}
+50%{-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1)}
+100%{-ms-transform:scale(.9);-webkit-transform:scale(.9);transform:scale(.9)}
+}
+@keyframes scaling{
+0%{-ms-transform:scale(.9);-webkit-transform:scale(.9);transform:scale(.9)}
+50%{-ms-transform:scale(1);-webkit-transform:scale(1);transform:scale(1)}
+100%{-ms-transform:scale(.9);-webkit-transform:scale(.9);transform:scale(.9)}
+}
+@media screen and (max-width:950px){
+.Wrapper{width:100%}
+.BtnBack{padding-left:3%}
+.BtnBack a{width:calc(120/600*100%);height:0;padding-bottom:calc(120/600*100%)}
+.Header h1{width:90%;height:0;padding-bottom:31%;margin:0 auto 8px}
+.Center{padding:5%}
+.GameBlock{width:90%;padding-bottom:90%;height:0}
+.BtnGo{position:absolute;left:0;right:0;top:0;bottom:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.BtnGo a{width:calc(150/450*100%);padding-bottom:calc(150/450*100%);height:0}
+.ButtnBar ul li{width:50%}
+.ButtnBar ul li a{width:100%;height:0;padding-bottom:29%}
+.ButtonBar ul li{width:calc(168/720*100%)}
+.BtnShareFb,.BtnShareLine{height:0;padding-bottom:calc(300/720*100%);width:100%}
+.LightboxWrap{width:77vw;height:40vh;min-height:210px}
+.Lightbox .Title{font-size:5vmin}
+.Lightbox .Wording{font-size:7vmin;overflow:hidden}
+.Tip{font-size:3.5vmin}
+.PageBar a{margin:0 .5% 5px}
+}
+@media screen and (max-width:600px){
+.LightboxWrap{height:25vh}
+}

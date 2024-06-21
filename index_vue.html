@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="zh-tw">
+    <title>IVY's Portfolio</title>
+    <meta name="description" content="IVY's Resume">
+    <meta property="og:site_name" content="IVY's Resume">
+    <meta property="og:title" content="IVY's Resume">
+    <meta property="og:image" content="./images/share.jpg">
+    <meta property="og:description" content="IVY's Resume">
+    <meta property="og:url" content="">
+    <meta name="title" content="IVY's Resume">
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no,  initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimum-scale=1.0">
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/anicollection.css">
+    <link rel='stylesheet' id='waxon_fn_googlefonts-css' href='https://fonts.googleapis.com/css?family=Lora%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CPoppins%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CPoppins%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CPoppins%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CMuli%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic&#038;subset=latin%2Ccyrillic%2Cgreek%2Cvietnamese&#038;ver=6.0.1' type='text/css' media='all' />
+    <script src="https://kit.fontawesome.com/0381a381b4.js" crossorigin="anonymous"></script>
+</head>
+
+<body style="margin:0;" id="Homepage">
+    <div class="animate-bottom">
+        <div id="app"></div>
+    </div>
+    <!--Header Start-->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script type="module">
+        import { createApp } from 'https://unpkg.com/vue@next';
+
+    const app = createApp({
+      data() {
+        return {
+          isOpen: false,
+        };
+      },
+      methods: {
+        toggleMenu() {
+          this.isOpen = !this.isOpen;
+        },
+      },
+      template: `
+        <div :class="['Header', { open: isOpen }]">
+          <div class="Wrapper">
+            <div class="LogoBlock">
+              <div class="DropToggleBox">
+                <div class="DropToggle" @click="toggleMenu">
+                  <div class="hamburgerBox">
+                    <span class="hamburger top-bar"></span>
+                    <span class="hamburger middle-bar"></span>
+                    <span class="hamburger bottom-bar"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="Logo">
+                <a href="./index.html" title="IVY Portfolio">IVY Portfolio</a>
+              </div>
+            </div>
+            <div class="Nav" v-if="isOpen">
+              <div class="NavBg">
+                <!-- SVG Code -->
+              </div>
+              <ul>
+                <li><a href="#About" title="關於我"><span class="BigNav">關於我</span><span class="SmallNav">About Ivy</span></a></li>
+                <li><a href="#Expertise" title="我的經歷"><span class="BigNav">我的經歷</span><span class="SmallNav">Expertise</span></a></li>
+                <li><a href="./portfolio.html" title="作品集"><span class="BigNav">作品集</span><span class="SmallNav">Portfolio</span></a></li>
+                <li><a href="#Footer" title="聯絡資訊"><span class="BigNav">聯絡資訊</span><span class="SmallNav">Contact me</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      `,
+    });
+
+    app.mount('#app');
+  </script>
+    <!--Header End-->
+
+</body>
+
+</html>

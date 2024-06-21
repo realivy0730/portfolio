@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("reset.css");
+
+a{ text-decoration:none; outline:none;}
+map area { outline: none;}
+img{ vertical-align:top;}
+li{ list-style:none;}
+
+*{ margin:0; padding:0;}
+
+.WRAPPER{ width:100%; height:auto;background-color: #050c23;}
+.PACKAGE{ width:100%; height:auto;overflow:hidden;}
+
+.TOP{width:100%;height:auto;background:url('../images/cover_bg.jpg') no-repeat center top #050c23;}
+.TOP .TOP_COVER{width:1366px;height:760px;margin: 0 auto;position: relative;}
+.TOP .TOP_COVER p{width: 200px;height: 50px;background-color:#370E6C;border-radius: 0px 0px 10px 10px;position: absolute;top: 0;right: 220px;text-align: center;font: bold 30px/45px "微軟正黑體";}
+.TOP .TOP_COVER p a{display: block;color: #fff;}
+.TOP .TOP_COVER span.LINE a{display: block;width: 225px;height: 35px;position: absolute;top: 631px;right: 206px;}
+/*.TOP .TOP_COVER span.BOX a{display: block;width: 170px;height: 35px;position: absolute;top: 631px;right: 122px;}*/
+.TOP .TOP_COVER span img{width: 100%;height: auto;}
+
+.BLET{width: 100%;height: auto;}
+.BLET ul{width: 760px;height: 120px;margin: 0 auto;background:url('../images/blet_bg.png') no-repeat center top;}
+.BLET ul li{width: 190px;height: 120px;float: left;}
+
+
+.LATTICE_NO19{height: auto; margin:0 auto;padding-bottom:20px;overflow:hidden; }
+.LATTICE_NO19 h5{font: bold 22px/136px "微軟正黑體";color: #fff;-webkit-writing-mode: vertical-lr;writing-mode: vertical-lr;width: 125px; float: left; height: 520px;}
+.LATTICE_NO19 h5 img{width: 125px;height: auto;  display: inline-block;}
+.LATTICE_NO19 h5 span a{border-radius: 13.5px;background-color: #5a5eff;font: 16px/24px "微軟正黑體";padding: 2% 0;vertical-align: middle;margin-left: 2%;color: #fff;display: inline-block;margin-top: 6px;margin-left: -9px;}
+.LATTICE_NO19 h5 br{display: none;}
+.LATTICE_NO19 ul{ margin:0 auto 0 19px; margin-left: 125px; }
+.LATTICE_NO19 ul li{width: 24.5%;float: left;margin: 0px 2px 4px 2px;padding-top: 5px;background-color: #FFF;text-align: center;}
+.LATTICE_NO19 ul li p.IMA{width:150px; height:150px; margin:0 auto;}
+.LATTICE_NO19 ul li p.IMA img{width: 100%;height: auto;}
+.LATTICE_NO19 ul li p.SPACIAL{ background-color:#dc1716; color:#FFF; font: bold 14px/25px "微軟正黑體";padding: 0px 5px; margin-top: 5px;white-space: nowrap;}
+.LATTICE_NO19 ul li p.PNAME{height:37px; font: 15px/18px "微軟正黑體"; color:#000;width: 100%;max-width: 208px;display: -webkit-box;overflow: hidden;text-overflow: ellipsis;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.LATTICE_NO19 ul li p.PRICE{width:208px; height:35px;overflow: hidden;}
+.LATTICE_NO19 ul li p.PRICE span.COST{font:15px/15px "Century Gothic"; color:#3d3d3d; text-decoration:line-through;margin-right: 3px;}
+.LATTICE_NO19 ul li p.PRICE span.COST:before{content:"$"; font-family:"Century Gothic";font-size:15px;}
+.LATTICE_NO19 ul li p.PRICE span.COST-2{font: bold 23px/35px "Century Gothic";color:#dc1716;}
+.LATTICE_NO19 ul li p.PRICE span.COST-2:before{content:"$"; font-family:"Century Gothic";font-size:15px; color:#dc1716;}
+.LATTICE_NO19 ul li p.PRICE span.COST-3{font: bold 14px/35px"微軟正黑體";color:#dc1716;}
+
+
+
+@media screen and (max-width:768px){
+	*{ margin:0; padding:0;}
+	html, body{ -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+
+	.WRAPPER{ width:100%; height:auto;}
+	.PACKAGE{ width:100%; height:auto;}
+
+	.TOP{width:100%;height:0;padding-bottom: 55.636%;background-size: cover;}
+	.TOP .TOP_COVER{width:100%;height:0;padding-bottom: 55.636%;}
+	.TOP .TOP_COVER p{width: 20%;height: auto;background-color:#2e0c5b;border-radius: 0px 0px 10px 10px;position: absolute;top: 0;right: 10%;text-align: center;font: bold 3vw/1vh "微軟正黑體";white-space: nowrap;padding: 2% 2%;}
+	.TOP .TOP_COVER span.LINE a{display: block;width: 20%;height: 0;padding-bottom: 10%; position: absolute;top: 86%;right: 24.5%;}
+	/*	.TOP .TOP_COVER span.BOX a{display: block;width: 15%;height: 0;padding-bottom: 10%;position: absolute;top: 50%;right: 7%;}*/
+	.TOP .TOP_COVER span img{width: 200%;height: auto;}
+
+	.BLET{width: 100%;height: 0;padding-bottom: 64%;}
+	.BLET ul{width: 100%;height: 0;padding-bottom: 64%;background-size: cover;}
+	.BLET ul li{width: 50%;height: auto;float: left;padding-top: 5%;}
+	.BLET ul li:nth-child(3),.BLET ul li:nth-child(4){padding-top: 0%;margin-top: -8%;}
+	.BLET ul li img{width: 100%;height: auto;}
+
+	.LATTICE_NO19{width:100%;height: auto;margin:0 auto;padding-bottom:2.5%;padding-top:2.5%;overflow:hidden;}
+	.LATTICE_NO19 h5{width:100%;height:auto; text-align:center;font: bold bold 1vw/1vh "微軟正黑體"; color:#fff;white-space:nowrap;padding-bottom: 2.5%;}
+	.LATTICE_NO19 h5 img{width: 16%;height: auto;vertical-align: middle;}
+	.LATTICE_NO19 h5 br{display: block;}
+	.LATTICE_NO19 h5 span a{width: 20%;height: auto;border-radius:50px;background-color: #5a5eff;font:1vw/1vh "微軟正黑體";padding: 1% 2%;vertical-align: middle;margin-left: 1%;color: #fff;}
+	.LATTICE_NO19 ul{width:98%; height: auto; margin:0 auto;}
+	.LATTICE_NO19 ul li{width:48%;height: auto; float:left;margin:0% 1% 2% 1%;padding-top:2.5%;background-color: #FFF;text-align:center;}
+	.LATTICE_NO19 ul li p.IMA{width:80%;height:0; padding-bottom:80%;margin:0 auto;}
+	.LATTICE_NO19 ul li p.IMA img{width: 100%;height: auto;}
+	.LATTICE_NO19 ul li p.SPACIAL{width:95%; height:22px;padding: 0% 2.5%; background-color:#dc1716; color:#FFF; font: bold 0.95em/20px "微軟正黑體";overflow:hidden;}
+	.LATTICE_NO19 ul li p.PNAME{width:95%; height:36px;margin:0 auto; font: 0.9em/1.2em "微軟正黑體"; color:#000;padding: 2% 2.5% 0% 2.5%;white-space: pre-wrap;overflow:hidden;}
+	.LATTICE_NO19 ul li p.PRICE{width:95%; height:35px;white-space:nowrap;padding:0% 2.5%;overflow:hidden;}
+/*	.LATTICE_NO19 ul li p.PRICE:after{content:"BUY";display:none;width: 35px;height: 15px;background-color:#dc1716;font: 13px/15px "Century Gothic";text-align: center;color: #fff;border-radius: 3px;vertical-align: middle;margin-left:3px;margin-bottom: 6px;}*/
+	.LATTICE_NO19 ul li p.PRICE span.COST{font:0.83em/15px "Century Gothic"; color:#3d3d3d; text-decoration:line-through;margin-right:1%;}
+	.LATTICE_NO19 ul li p.PRICE span.COST:before{content:"$"; font-family:"Century Gothic";font-size:0.85em;}
+	.LATTICE_NO19 ul li p.PRICE span.COST-2{font: bold 1.7em/1em "Century Gothic";color:#dc1716;}
+	.LATTICE_NO19 ul li p.PRICE span.COST-2:before{content:"$"; font-family:"Century Gothic";font-size:0.5em; color:#dc1716;}
+	.LATTICE_NO19 ul li p.PRICE span.COST-3{font: bold 0.7em/35px"微軟正黑體";color:#dc1716;}
+
+}

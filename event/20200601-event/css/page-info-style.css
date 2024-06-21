@@ -1,0 +1,119 @@
+@charset "utf-8";
+body,html{margin:0;height:100%}
+body{height:100%;width:100%;margin:0;padding:0}
+body{font-size:100%;line-height:1.5;font-family:"微軟正黑體","LiHei Pro",Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;position:relative;background-color:#542ea8}
+a:focus{outline:0}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+img{border:0 none;line-height:0;display:block}
+form{margin:0;padding:0}
+ul,ul li{margin:0;padding:0;list-style-type:none}
+dd,dl,dt{margin:0;padding:0}
+dl{height:1%}
+button{border:0 none;cursor:pointer;padding:0;margin:0;background:0 0}
+.clearfix:after,.clearfix:before{content:"";display:table;height:0;overflow:hidden}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+h1,h2,h3,h4,h6,p{margin:0;padding:0}
+.ColorImg{color:#ffe2db}
+ul li img{width:95%;margin:1% auto;height:auto}
+.QrCodeImg{width:30%;height:auto;margin:inherit}
+.Top{display:none!important}
+.logo a{display:block;width:114px;height:40px}
+.WRAPPER{width:100%;height:auto}
+.VISIONARY{width:100%;height:520px;background:url(../images/title.jpg) no-repeat center top;position:relative}
+.VISIONARY>.DREAMY{width:1000px;height:475px;margin:0 auto;position:relative}
+.VISIONARY>.DREAMY p{width:200px;height:50px;background-color:#542ea8;border-radius:0 0 10px 10px;position:absolute;top:0;right:50px;text-align:center;font:30px/45px "微軟正黑體"}
+.VISIONARY>.DREAMY p a{display:block;color:#fff}
+.ROUTINE_PAGE{width:100%;height:auto;padding-top:0;overflow:hidden}
+.MAINTAIN{width:1000px;height:auto;margin:3% auto;text-align:left;padding-bottom:20px;border-radius:10px;position:relative}
+.MAINTAIN:after{content:"";position:absolute;border:3px solid #edbfea;box-shadow:0 0 12px 6px rgba(255,51,153,.7),inset 0 1px 5px 3px rgba(255,51,153,.7);width:5px;top:0;bottom:0;z-index:-1;background-color:#542ea8}
+.MAINTAIN>.N1{width:870px;height:auto;position:relative;padding:0 50px 20px 80px}
+.MAINTAIN>.N1 h6{width:130px;height:130px;border-radius:50%;background-color:#542ea8;text-align:center;font:bold 90px/140px "Arial, Helvetica,sans-serif";position:absolute;left:-65px;top:-9px;color:#fff;border:3px solid #edbfea;box-shadow:0 0 12px 6px rgba(255,51,153,.7),inset 0 1px 5px 3px rgba(255,51,153,.7)}
+.MAINTAIN h4{color:#fff;font:bold 50px/130px "微軟正黑體";margin:0 0 8px;padding:0}
+.MAINTAIN h4 span{font:bold 28px/130px "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE01{display:inline-block;width:290px;text-align:center;border-radius:50px;background-color:#542ea8;margin:5px 15px 30px 0;border:3px solid #edbfea;box-shadow:0 0 12px 6px rgba(255,51,153,.7),inset 0 1px 5px 3px rgba(255,51,153,.7)}
+.MAINTAIN h5.BTN_STYLE02{display:inline-block;width:390px;text-align:center;border-radius:50px;background-color:#542ea8;margin:5px 15px 30px 0;border:3px solid #edbfea;box-shadow:0 0 12px 6px rgba(255,51,153,.7),inset 0 1px 5px 3px rgba(255,51,153,.7)}
+.BTN_STYLE02:hover{-moz-box-shadow:4px 4px 3px rgba(20%,20%,40%,.5);-webkit-box-shadow:4px 4px 3px rgba(20%,20%,40%,.5);box-shadow:4px 4px 3px rgba(20%,20%,40%,.5);transform:translateY(.2em)}
+.MAINTAIN h5.BTN_STYLE01 a{display:block;color:#fff;font:bold 35px/50px "微軟正黑體";text-decoration:none}
+.MAINTAIN h5.BTN_STYLE01 a small{font:bold 20px/20px "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE01 a:after{content:url(../images/hand.png)}
+.MAINTAIN li h5.BTN_STYLE02{margin:0 15px 30px -22px}
+.MAINTAIN h5.BTN_STYLE02 a{display:block;color:#fff;font:bold 35px/50px "微軟正黑體";text-decoration:none}
+.MAINTAIN h5.BTN_STYLE02 a small{font:bold 20px/20px "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE02 a:after{content:url(../images/hand.png)}
+.MAINTAIN p{font:20px/34px "微軟正黑體";color:#fff}
+.MAINTAIN p span{font:bold 25px/34px "微軟正黑體";color:#ffeb3b}
+.MAINTAIN p a{color:#f5e901;text-decoration:underline}
+.MAINTAIN ol{padding-left:22px}
+.MAINTAIN ol li{list-style-type:disc}
+.MAINTAIN li{color:#fff;font:20px/34px "微軟正黑體"}
+.MAINTAIN li a{color:#f5e901;text-decoration:underline}
+.MAINTAIN li table{width:100%;font:16px/25px "微軟正黑體";color:#fff}
+.MAINTAIN table{width:100%;text-align:center;margin-bottom:30px;word-break:break-all}
+.MAINTAIN table tr{font:16px/25px "微軟正黑體"}
+.MAINTAIN table td{font:16px/25px "微軟正黑體";background-color:#2b1061;vertical-align:middle;padding:5px}
+.MAINTAIN table td a{color:#ff0;text-decoration:underline}
+.MAINTAIN table tr td:last-child{padding-left:10px;text-align:center}
+.MAINTAIN table th{background-color:#c09;color:#000;text-align:center;padding-left:0}
+.MAINTAIN .T_CENTER tr td:last-child{padding-left:0;text-align:center}
+.MAINTAIN table.T_CENTER tr td{background-color:#dedede;color:#000}
+.MAINTAIN td.T_LEFT{text-align:left!important;padding-left:10px!important}
+.MAINTAIN ol li ul li{list-style:disc;margin-left:20px}
+.NOTE{width:100%;height:auto;background-color:#2b1061;overflow:hidden}
+.NOTE h4{color:#c09;font:bold 50px/60px "微軟正黑體";text-align:center;padding-top:10px}
+.NOTE ol{width:1000px;height:auto;text-align:left;margin:0 auto}
+.NOTE .Rule{width:1000px;height:auto;text-align:left;margin:2% auto;color:#fcefdf;font:15px/25px "微軟正黑體"}
+.NOTE li{color:#fcefdf;font:15px/25px "微軟正黑體";margin-bottom:30px}
+.share-bar{width:950px!important;z-index:99}
+.WEB{display:block;width:100%}
+.FOOTER{width:100%;margin:0 auto;padding:0;background:url(../images/footer-bg.jpg) repeat-x;overflow:hidden}
+.footerbox{width:950px;margin:0 auto}
+.LiStyle li{list-style:upper-alpha;margin-left:30px}
+.Table th{padding:1%}
+.Table td span{color:#0900ff;font-size:14px;line-height:1}
+@media screen and (max-width:768px){
+body,html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-size:200%}
+.WRAPPER{width:100%;height:auto}
+.VISIONARY{width:100%;height:0;padding-bottom:62%;background-size:cover}
+.VISIONARY>.DREAMY{width:100%;height:auto;margin:0 auto;position:relative}
+.VISIONARY>.DREAMY p{width:80px;height:25px;border-radius:0 0 5px 5px;text-align:center;font:15px/25px "微軟正黑體";white-space:nowrap;right:10px}
+.VISIONARY>.DREAMY p a{display:block;color:#fff}
+.ROUTINE_PAGE{width:100%;height:auto;padding-top:30px;overflow:hidden}
+.MAINTAIN{width:75%;height:auto;margin:3% auto 3% auto;text-align:justify}
+.MAINTAIN>.N1{width:95%;height:auto;position:relative;padding:0 20px 50px 45px}
+.MAINTAIN>.N1 h6{width:65px;height:65px;border-radius:50%;text-align:center;font:bold 40px/65px "Arial, Helvetica,sans-serif";position:absolute;left:-35px;top:-10px}
+.MAINTAIN h4{font:bold 2em/1em "微軟正黑體";margin-bottom:10px}
+.MAINTAIN h4 span{font:bold .6em/1em "微軟正黑體"}
+.MAINTAIN h5.BTN_STYLE01{display:inline-block;width:90%;text-align:center;border-radius:50px;margin:10px 15px 10px 0;white-space:nowrap}
+.MAINTAIN h5.BTN_STYLE01 a{display:block;font:bold 1.5em/40px "微軟正黑體";padding-top:5px}
+.MAINTAIN h5.BTN_STYLE01 a:after{content:url(../images/hand.png);vertical-align:middle}
+.MAINTAIN h5.BTN_STYLE02{display:inline-block;width:90%;text-align:center;border-radius:50px;margin:0 15px 10px 0;white-space:nowrap}
+.MAINTAIN h5.BTN_STYLE02 a{display:block;font:bold 1.5em/40px "微軟正黑體";padding-top:5px}
+.MAINTAIN h5.BTN_STYLE02 a:after{content:url(../images/hand.png);vertical-align:middle}
+.MAINTAIN p{font:1em/2em "微軟正黑體";color:#fff}
+.MAINTAIN p img{width:100%;height:auto}
+.MAINTAIN p span{font:bold 1em/2em "微軟正黑體"}
+.MAINTAIN p a{text-decoration:underline}
+.MAINTAIN li{color:#fff;font:1em/2em "微軟正黑體"}
+.MAINTAIN li table{font-size:14px}
+.MAINTAIN li table.Table2{margin-left:-50px}
+.MAINTAIN .TABLE_BOX{width:100%;text-align:center;margin-bottom:30px}
+.MAINTAIN .TABLE_BOX tr{font:.95em/1.2em "微軟正黑體"}
+.MAINTAIN .TABLE_BOX td{font:.95em/1.2em "微軟正黑體";background-color:#fff5dd;vertical-align:middle;padding:5px}
+.MAINTAIN .TABLE_BOX tr td:last-child{padding-left:10px;text-align:left}
+.MAINTAIN .TABLE_BOX tr:first-child td{background-color:#373737;color:#1f1c1d;text-align:center;padding-left:0}
+.MAINTAIN .T_CENTER tr td:last-child{padding-left:0;text-align:center}
+.NOTE{width:100%;height:auto;background-color:#373737;overflow:hidden}
+.NOTE h4{font:bold 2em/2em "微軟正黑體";text-align:center;padding-top:10px}
+.NOTE ol{width:88%;height:auto;text-align:justify;margin:0 auto;padding-left:5%}
+.NOTE .Rule{width:88%;height:auto;text-align:justify;margin:0 auto;padding-left:5%}
+.NOTE li{font:.9em/1.5em "微軟正黑體";margin-bottom:30px}
+.share-bar{width:100%!important}
+.share-bar #rolltop{display:none}
+.WEB{display:block;width:100%}
+.FOOTER{width:100%;margin:0 auto;background:url(../images/footer-bg.jpg) repeat-x;overflow:hidden;background-size:cover}
+.footerbox{width:100%;margin:0 auto;text-align:center}
+.QrCodeImg{width:100%;height:auto}
+.MAINTAIN:after{width:0}
+}
