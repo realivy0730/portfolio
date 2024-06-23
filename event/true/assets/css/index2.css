@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#scrolly-video video{height: 100%;width: 100%;object-fit: cover;}
+/* #scrolly-video{position: fixed!important;} */
+
+.loader {top: 0;left: 0;right: 0;bottom: 0;position: fixed;}
+#gifContainer{top: 0;left: 0;right: 0;bottom: 0;position: fixed;z-index: 2;}
+.hidden {display: none;}
+.video_block{position: relative;z-index: 1;}
+.video_wrap{height: 4000vh;}
+.btngroup{position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);display: none;}
+.btngroup ul{display: flex;}
+.btngroup ul li a{font-family: "Noto Serif JP";min-width: 150px;font-size: 1rem;font-weight: 500;line-height: 23px;letter-spacing: 0.25em;display: inline-flex;justify-content: space-between;padding-bottom: 4px;border-bottom: 1px solid #2D2D2D;margin-right: 30px;transition: all .3s;}
+.btngroup ul li a:hover{border-bottom: 1px solid transparent;}
+.wording{margin-bottom: 40px;font-size: 1.1rem;line-height: 2;letter-spacing: 2px;min-width: 200px}
+.footer{position: fixed; bottom: 0; left: 0; right: 0;display: none;}
+#loader{background: url("https://cddev.creer-design.com/brm/trueArc/loading.gif") center top / cover no-repeat;width: 100vw;height: 100vh;}
+#gifContainer{background: url("https://cddev.creer-design.com/brm/trueArc/opening.gif")center top / cover no-repeat;width: 100vw;height: 100vh;}
+
+@media (max-width: 1100px) {
+    .btngroup{right: 50%;margin-right: -194px;}
+    .wording{font-size: 1rem;}
+    #loader{background-image: url("https://cddev.creer-design.com/brm/trueArc/loading-mobile.gif"); }
+    #gifContainer{background-image: url("https://cddev.creer-design.com/brm/trueArc/opening-mobile.gif"); }
+    
+}
