@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-08-09 — 移除失效的作品集連結
+
+### 修改
+- `portfolio.html`
+  - 移除 3 個已失效的 external link（friday 購物節活動頁）：
+    - 百貨週年慶（`event/20200929-mallevent/`）
+    - 1212 倆倆購物節（`event/20201201-event/`）
+    - 狂歡雙11全站1折起（`event/20201028-event/`）
+
 ## 2026-08-06 — 圖書館頁 API 改道 newdatacenter（Service Worker 方案）
 
 ### 背景
