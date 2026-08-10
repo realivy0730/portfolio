@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026-08-10 — 移除 Hero 多層視差，改為單一 hero-bg.png 背景
+
+### 修改
+- `index.html`
+  - `#Intro` 移除 `.hero-parallax` 多層結構（`.layer-bg / .layer-deco / .layer-h1`）
+  - 移除 `div.hero-content`（IntroTitle「林垣均」與 Intro 自我介紹文字）
+  - 移除 Lottie CDN script 引用
+  - 改為單一 `<div class="hero">` 結構
+- `css/layout.css`
+  - 移除 `.layer*`、`.hero-content`、`.sr-only`、`.lottie-badges`、`.lottie-item` 樣式
+  - 新增 `.hero` 樣式（`hero-bg.png` cover 全幅背景）+ RWD 降級
+- `js/main.js`
+  - 移除 `initParallax()`、`initHeroLottie()` 函式與其呼叫
+
+### 驗證
+- `node --check js/main.js` 通過
+- 無 `.layer*` / `hero-content` / `lottie*` 殘留引用
+- Issue: https://github.com/realivy0730/portfolio/issues/3
+
 ## 2026-08-10 — 首頁移除 Hero 人物層（layer-person）
 
 ### 修改

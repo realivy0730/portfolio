@@ -3,8 +3,6 @@ $(document).ready(function () {
 	toggleNavigationMenu();
 	smoothScrollToSection();
     initSwipers();
-    initParallax();
-    initHeroLottie();
 });
 
 function toggleHeaderFixedBar() {
@@ -128,29 +126,3 @@ function smoothScrollToSection() {
     });
   }
 
-function initParallax() {
-  var layers = document.querySelectorAll('#Intro .layer');
-  if (!layers.length) return;
-  window.addEventListener('scroll', function() {
-    var y = window.scrollY;
-    layers.forEach(function(layer) {
-      var speed = parseFloat(layer.dataset.speed) || 0;
-      layer.style.transform = 'translateY(' + (y * speed) + 'px)';
-    });
-  }, { passive: true });
-}
-
-function initHeroLottie() {
-  if (typeof lottie === 'undefined') return;
-  var badges = [
-    { id: 'lottie-js',   path: 'https://assets2.lottiefiles.com/packages/lf20_ystsffqy.json' },
-    { id: 'lottie-css',  path: 'https://assets2.lottiefiles.com/packages/lf20_w51pcehl.json' },
-    { id: 'lottie-html', path: 'https://assets2.lottiefiles.com/packages/lf20_jtbfg2nb.json' },
-    { id: 'lottie-vue',  path: 'https://assets2.lottiefiles.com/packages/lf20_vnikrcia.json' },
-  ];
-  badges.forEach(function(b) {
-    var el = document.getElementById(b.id);
-    if (!el) return;
-    lottie.loadAnimation({ container: el, renderer: 'svg', loop: true, autoplay: true, path: b.path });
-  });
-}
