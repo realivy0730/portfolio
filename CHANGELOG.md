@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-08-10 — 首頁移除 Hero 人物層（layer-person）
+
+### 修改
+- `index.html`
+  - 移除 `#Intro .hero-parallax` 中的 `.layer.layer-person` div（含 `.lottie-badges` 四個 Lottie 動畫容器：JS/CSS/HTML/Vue）
+  - 保留 `.layer-bg`、`.layer-deco`、`.layer-h1` 三層視差結構
+
+### 備註
+- `js/main.js` 的 `initHeroLottie()` 已有 `if (!el) return` 防護，移除後不影響其他功能，未變更 JS
+
 ## 2026-08-09 — 移除失效的作品集連結
 
 ### 修改
